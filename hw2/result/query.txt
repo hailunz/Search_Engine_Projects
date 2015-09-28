@@ -1,0 +1,32 @@
+10:cheap internet
+12:djs
+26:lower heart rate
+29:ps 2 games
+33:elliptical trainer
+52:avp
+71:living in india
+102:fickle creek farm
+149:uplift at yellowstone national park
+190:brooks brothers clearance
+
+
+12:#SYN(djs dj #NEAR/1(disk jockey))
+190:#AND(brooks brothers #SYN(clearance sale discount))
+
+10:#NEAR/3(#SYN(cheap inexpensive affordable) internet)
+12:#SYN(djs dj #NEAR/1(disk jockey))
+26:#SUM(lower #NEAR/5(heart rate))
+29:#NEAR/2(#SYN(ps #NEAR/1(play station)) 2) games
+33:#NEAR/5(elliptical trainer)
+52:#SYN(avp #NEAR/10(Association Volleyball Professional))
+71:#SUM(living in india)
+102:#NEAR/10(fickle creek farm)
+149:#SUM(uplift at #NEAR/5(yellowstone national park))
+190:#NEAR/2(brooks brothers) #SYN(clearance sale)
+
+
+71: #near/1(#syn(living live lives) in) india
+
+10:#NEAR/3(#SYN(cheap inexpensive affordable) internet) internet.inlink12:#SYN(djs dj #NEAR/1(disk jockey)) djs.keywords djs.url26:#near/4(lower #near/1(heart rate))29:#NEAR/2(#SYN(ps #NEAR/1(play station)) 2) games #near/1(ps.title 2.title)33:elliptical #syn(trainer machine) #near/15(elliptical.title trainer.title)52: avp.url  #SYN(avp #NEAR/8(Association Volleyball Professional)) 71: #near/1(living in) india102:#NEAR/10(fickle creek) #syn(farm farmhouse field)149: uplift at #NEAR/10(yellowstone #NEAR/2(national park))190:#NEAR/1(brooks brothers) #SYN(clearance sale discount) brooks.title brothers.title clearance.title
+
+#syn(rate pulse)bargain

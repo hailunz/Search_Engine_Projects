@@ -1,0 +1,1561 @@
+Results for hailunz on boston-web1.lti.cs.cmu.edu :
+
+---- Your file QryEval.zip is uploaded ----
+
+---- Unpack the zip file ----
+
+Archive: QryEval.zip
+creating: QryEval/
+inflating: QryEval/.DS_Store 
+creating: __MACOSX/
+creating: __MACOSX/QryEval/
+inflating: __MACOSX/QryEval/._.DS_Store 
+inflating: QryEval/DocLengthStore.java 
+inflating: __MACOSX/QryEval/._DocLengthStore.java 
+inflating: QryEval/DocLenStoreSimilarity.java 
+inflating: __MACOSX/QryEval/._DocLenStoreSimilarity.java 
+inflating: QryEval/EnglishAnalyzerConfigurable.java 
+inflating: __MACOSX/QryEval/._EnglishAnalyzerConfigurable.java 
+inflating: QryEval/InvList.java 
+inflating: __MACOSX/QryEval/._InvList.java 
+inflating: QryEval/QryEval.java 
+inflating: __MACOSX/QryEval/._QryEval.java 
+inflating: QryEval/Qryop.java 
+inflating: __MACOSX/QryEval/._Qryop.java 
+inflating: QryEval/QryopIl.java 
+inflating: __MACOSX/QryEval/._QryopIl.java 
+inflating: QryEval/QryopIlNearN.java 
+inflating: QryEval/QryopIlSyn.java 
+inflating: __MACOSX/QryEval/._QryopIlSyn.java 
+inflating: QryEval/QryopIlTerm.java 
+inflating: __MACOSX/QryEval/._QryopIlTerm.java 
+inflating: QryEval/QryopSl.java 
+inflating: __MACOSX/QryEval/._QryopSl.java 
+inflating: QryEval/QryopSlAnd.java 
+inflating: __MACOSX/QryEval/._QryopSlAnd.java 
+inflating: QryEval/QryopSlOr.java 
+inflating: QryEval/QryopSlScore.java 
+inflating: __MACOSX/QryEval/._QryopSlScore.java 
+inflating: QryEval/QryResult.java 
+inflating: __MACOSX/QryEval/._QryResult.java 
+inflating: QryEval/RetrievalModel.java 
+inflating: __MACOSX/QryEval/._RetrievalModel.java 
+inflating: QryEval/RetrievalModelRankedBoolean.java 
+inflating: QryEval/RetrievalModelUnrankedBoolean.java 
+inflating: __MACOSX/QryEval/._RetrievalModelUnrankedBoolean.java 
+inflating: QryEval/ScoreList.java 
+inflating: __MACOSX/QryEval/._ScoreList.java 
+inflating: QryEval/TermVector.java 
+inflating: __MACOSX/QryEval/._TermVector.java 
+
+---- Build the system ----
+
+javac -version
+javac 1.6.0_29
+javac -cp ".:lucene-4.3.0/*" *.java
+
+
+---- Test your system ----
+
+Working 
+Elapsed: 10 secs 
+Elapsed: 20 secs
+
+
+
+Results:
+
+Elapsed time: 28 secs
+
+
+---- Test HW1-Train-20 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-20.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-20.teIn 
+retrievalAlgorithm=UnrankedBoolean 
+
+-- Your program stdout: -- 
+190	Q0	clueweb09-en0000-18-21486	1	1.0	run-1 
+190	Q0	clueweb09-en0000-35-19942	2	1.0	run-1 
+190	Q0	clueweb09-en0000-50-19955	3	1.0	run-1 
+190	Q0	clueweb09-en0000-95-20731	4	1.0	run-1 
+190	Q0	clueweb09-en0001-18-37097	5	1.0	run-1 
+190	Q0	clueweb09-en0001-36-14245	6	1.0	run-1 
+190	Q0	clueweb09-en0001-43-19557	7	1.0	run-1 
+190	Q0	clueweb09-en0002-15-25446	8	1.0	run-1 
+190	Q0	clueweb09-en0002-39-10420	9	1.0	run-1 
+190	Q0	clueweb09-en0003-31-13760	10	1.0	run-1 
+190	Q0	clueweb09-en0003-38-30237	11	1.0	run-1 
+190	Q0	clueweb09-en0003-45-11515	12	1.0	run-1 
+190	Q0	clueweb09-en0003-67-02800	13	1.0	run-1 
+190	Q0	clueweb09-en0003-71-13626	14	1.0	run-1 
+190	Q0	clueweb09-en0004-12-10145	15	1.0	run-1 
+190	Q0	clueweb09-en0004-42-40151	16	1.0	run-1 
+190	Q0	clueweb09-en0004-42-40299	17	1.0	run-1 
+190	Q0	clueweb09-en0004-65-06611	18	1.0	run-1 
+190	Q0	clueweb09-en0004-72-27061	19	1.0	run-1 
+190	Q0	clueweb09-en0004-72-27126	20	1.0	run-1 
+190	Q0	clueweb09-en0005-22-15471	21	1.0	run-1 
+190	Q0	clueweb09-en0005-61-23474	22	1.0	run-1 
+190	Q0	clueweb09-en0006-14-40073	23	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02347	24	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02366	25	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02376	26	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02377	27	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02379	28	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02386	29	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02387	30	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02388	31	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02389	32	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02392	33	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02397	34	1.0	run-1 
+190	Q0	clueweb09-en0006-48-12486	35	1.0	run-1 
+190	Q0	clueweb09-en0006-48-12487	36	1.0	run-1 
+190	Q0	clueweb09-en0006-48-13234	37	1.0	run-1 
+190	Q0	clueweb09-en0006-48-13403	38	1.0	run-1 
+190	Q0	clueweb09-en0006-63-21300	39	1.0	run-1 
+190	Q0	clueweb09-en0006-70-16312	40	1.0	run-1 
+190	Q0	clueweb09-en0006-98-32840	41	1.0	run-1 
+190	Q0	clueweb09-en0006-98-32865	42	1.0	run-1 
+190	Q0	clueweb09-en0006-98-32888	43	1.0	run-1 
+190	Q0	clueweb09-en0007-24-07713	44	1.0	run-1 
+190	Q0	clueweb09-en0007-24-16254	45	1.0	run-1 
+190	Q0	clueweb09-en0007-24-16381	46	1.0	run-1 
+190	Q0	clueweb09-en0007-33-07214	47	1.0	run-1 
+190	Q0	clueweb09-en0007-36-05948	48	1.0	run-1 
+190	Q0	clueweb09-en0007-36-06082	49	1.0	run-1 
+190	Q0	clueweb09-en0007-51-08563	50	1.0	run-1 
+190	Q0	clueweb09-en0007-94-02003	51	1.0	run-1 
+190	Q0	clueweb09-en0008-18-37611	52	1.0	run-1 
+190	Q0	clueweb09-en0008-18-37612	53	1.0	run-1 
+190	Q0	clueweb09-en0008-86-05086	54	1.0	run-1 
+190	Q0	clueweb09-en0008-90-05423	55	1.0	run-1 
+190	Q0	clueweb09-en0008-92-02423	56	1.0	run-1 
+190	Q0	clueweb09-en0009-15-22859	57	1.0	run-1 
+190	Q0	clueweb09-en0009-15-22865	58	1.0	run-1 
+190	Q0	clueweb09-en0009-24-04772	59	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21774	60	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21791	61	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21792	62	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21804	63	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21810	64	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21819	65	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21864	66	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21868	67	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21883	68	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21888	69	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21889	70	1.0	run-1 
+190	Q0	clueweb09-en0009-62-38578	71	1.0	run-1 
+190	Q0	clueweb09-en0009-98-27243	72	1.0	run-1 
+190	Q0	clueweb09-en0009-98-27244	73	1.0	run-1 
+190	Q0	clueweb09-en0009-98-27245	74	1.0	run-1 
+190	Q0	clueweb09-en0010-07-23767	75	1.0	run-1 
+190	Q0	clueweb09-en0010-78-08853	76	1.0	run-1 
+190	Q0	clueweb09-en0010-78-36950	77	1.0	run-1 
+190	Q0	clueweb09-en0010-81-33763	78	1.0	run-1 
+190	Q0	clueweb09-en0010-98-25031	79	1.0	run-1 
+190	Q0	clueweb09-en0010-99-16562	80	1.0	run-1 
+190	Q0	clueweb09-en0011-13-22789	81	1.0	run-1 
+190	Q0	clueweb09-en0011-20-22443	82	1.0	run-1 
+190	Q0	clueweb09-en0011-37-26826	83	1.0	run-1 
+190	Q0	clueweb09-en0011-85-08945	84	1.0	run-1 
+190	Q0	clueweb09-en0011-93-22031	85	1.0	run-1 
+190	Q0	clueweb09-en0011-93-22042	86	1.0	run-1 
+190	Q0	clueweb09-en0011-93-22072	87	1.0	run-1 
+190	Q0	clueweb09-enwp00-30-16648	88	1.0	run-1 
+190	Q0	clueweb09-enwp00-36-17027	89	1.0	run-1 
+Memory used: 37 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	89 
+num_rel all	20 
+num_rel_ret all	6 
+map all	0.0182 
+gm_ap all	0.0182 
+R-prec all	0.0500 
+bpref all	0.0175 
+recip_rank all	0.0526 
+ircl_prn.0.00 all	0.0857 
+ircl_prn.0.10 all	0.0857 
+ircl_prn.0.20 all	0.0857 
+ircl_prn.0.30 all	0.0857 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.0000 
+P15 all	0.0000 
+P20 all	0.0500 
+P30 all	0.0333 
+P100 all	0.0600 
+P200 all	0.0300 
+P500 all	0.0120 
+P1000 all	0.0060 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-21 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-21.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-21.teIn 
+retrievalAlgorithm=RankedBoolean 
+
+-- Your program stdout: -- 
+190	Q0	clueweb09-en0007-24-07713	1	8.0	run-1 
+190	Q0	clueweb09-en0006-48-13234	2	6.0	run-1 
+190	Q0	clueweb09-en0006-48-13403	3	6.0	run-1 
+190	Q0	clueweb09-en0006-98-32888	4	6.0	run-1 
+190	Q0	clueweb09-en0006-70-16312	5	5.0	run-1 
+190	Q0	clueweb09-en0004-72-27126	6	4.0	run-1 
+190	Q0	clueweb09-en0006-16-02379	7	4.0	run-1 
+190	Q0	clueweb09-en0000-18-21486	8	3.0	run-1 
+190	Q0	clueweb09-en0003-38-30237	9	3.0	run-1 
+190	Q0	clueweb09-en0006-16-02347	10	3.0	run-1 
+190	Q0	clueweb09-en0006-16-02366	11	3.0	run-1 
+190	Q0	clueweb09-en0006-16-02376	12	3.0	run-1 
+190	Q0	clueweb09-en0006-16-02388	13	3.0	run-1 
+190	Q0	clueweb09-en0006-16-02392	14	3.0	run-1 
+190	Q0	clueweb09-en0006-16-02397	15	3.0	run-1 
+190	Q0	clueweb09-en0006-48-12487	16	3.0	run-1 
+190	Q0	clueweb09-en0006-98-32840	17	3.0	run-1 
+190	Q0	clueweb09-en0006-98-32865	18	3.0	run-1 
+190	Q0	clueweb09-en0000-35-19942	19	2.0	run-1 
+190	Q0	clueweb09-en0001-43-19557	20	2.0	run-1 
+190	Q0	clueweb09-en0004-42-40299	21	2.0	run-1 
+190	Q0	clueweb09-en0006-14-40073	22	2.0	run-1 
+190	Q0	clueweb09-en0006-48-12486	23	2.0	run-1 
+190	Q0	clueweb09-en0007-33-07214	24	2.0	run-1 
+190	Q0	clueweb09-en0007-94-02003	25	2.0	run-1 
+190	Q0	clueweb09-en0010-78-08853	26	2.0	run-1 
+190	Q0	clueweb09-en0011-37-26826	27	2.0	run-1 
+190	Q0	clueweb09-en0011-93-22031	28	2.0	run-1 
+190	Q0	clueweb09-en0000-50-19955	29	1.0	run-1 
+190	Q0	clueweb09-en0000-95-20731	30	1.0	run-1 
+190	Q0	clueweb09-en0001-18-37097	31	1.0	run-1 
+190	Q0	clueweb09-en0001-36-14245	32	1.0	run-1 
+190	Q0	clueweb09-en0002-15-25446	33	1.0	run-1 
+190	Q0	clueweb09-en0002-39-10420	34	1.0	run-1 
+190	Q0	clueweb09-en0003-31-13760	35	1.0	run-1 
+190	Q0	clueweb09-en0003-45-11515	36	1.0	run-1 
+190	Q0	clueweb09-en0003-67-02800	37	1.0	run-1 
+190	Q0	clueweb09-en0003-71-13626	38	1.0	run-1 
+190	Q0	clueweb09-en0004-12-10145	39	1.0	run-1 
+190	Q0	clueweb09-en0004-42-40151	40	1.0	run-1 
+190	Q0	clueweb09-en0004-65-06611	41	1.0	run-1 
+190	Q0	clueweb09-en0004-72-27061	42	1.0	run-1 
+190	Q0	clueweb09-en0005-22-15471	43	1.0	run-1 
+190	Q0	clueweb09-en0005-61-23474	44	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02377	45	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02386	46	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02387	47	1.0	run-1 
+190	Q0	clueweb09-en0006-16-02389	48	1.0	run-1 
+190	Q0	clueweb09-en0006-63-21300	49	1.0	run-1 
+190	Q0	clueweb09-en0007-24-16254	50	1.0	run-1 
+190	Q0	clueweb09-en0007-24-16381	51	1.0	run-1 
+190	Q0	clueweb09-en0007-36-05948	52	1.0	run-1 
+190	Q0	clueweb09-en0007-36-06082	53	1.0	run-1 
+190	Q0	clueweb09-en0007-51-08563	54	1.0	run-1 
+190	Q0	clueweb09-en0008-18-37611	55	1.0	run-1 
+190	Q0	clueweb09-en0008-18-37612	56	1.0	run-1 
+190	Q0	clueweb09-en0008-86-05086	57	1.0	run-1 
+190	Q0	clueweb09-en0008-90-05423	58	1.0	run-1 
+190	Q0	clueweb09-en0008-92-02423	59	1.0	run-1 
+190	Q0	clueweb09-en0009-15-22859	60	1.0	run-1 
+190	Q0	clueweb09-en0009-15-22865	61	1.0	run-1 
+190	Q0	clueweb09-en0009-24-04772	62	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21774	63	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21791	64	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21792	65	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21804	66	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21810	67	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21819	68	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21864	69	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21868	70	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21883	71	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21888	72	1.0	run-1 
+190	Q0	clueweb09-en0009-36-21889	73	1.0	run-1 
+190	Q0	clueweb09-en0009-62-38578	74	1.0	run-1 
+190	Q0	clueweb09-en0009-98-27243	75	1.0	run-1 
+190	Q0	clueweb09-en0009-98-27244	76	1.0	run-1 
+190	Q0	clueweb09-en0009-98-27245	77	1.0	run-1 
+190	Q0	clueweb09-en0010-07-23767	78	1.0	run-1 
+190	Q0	clueweb09-en0010-78-36950	79	1.0	run-1 
+190	Q0	clueweb09-en0010-81-33763	80	1.0	run-1 
+190	Q0	clueweb09-en0010-98-25031	81	1.0	run-1 
+190	Q0	clueweb09-en0010-99-16562	82	1.0	run-1 
+190	Q0	clueweb09-en0011-13-22789	83	1.0	run-1 
+190	Q0	clueweb09-en0011-20-22443	84	1.0	run-1 
+190	Q0	clueweb09-en0011-85-08945	85	1.0	run-1 
+190	Q0	clueweb09-en0011-93-22042	86	1.0	run-1 
+190	Q0	clueweb09-en0011-93-22072	87	1.0	run-1 
+190	Q0	clueweb09-enwp00-30-16648	88	1.0	run-1 
+190	Q0	clueweb09-enwp00-36-17027	89	1.0	run-1 
+Memory used: 37 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	89 
+num_rel all	20 
+num_rel_ret all	6 
+map all	0.0411 
+gm_ap all	0.0411 
+R-prec all	0.1000 
+bpref all	0.0700 
+recip_rank all	0.1429 
+ircl_prn.0.00 all	0.2000 
+ircl_prn.0.10 all	0.2000 
+ircl_prn.0.20 all	0.1600 
+ircl_prn.0.30 all	0.0811 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.2000 
+P15 all	0.1333 
+P20 all	0.1000 
+P30 all	0.1333 
+P100 all	0.0600 
+P200 all	0.0300 
+P500 all	0.0120 
+P1000 all	0.0060 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-22 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-22.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-22.teIn 
+retrievalAlgorithm=UnrankedBoolean 
+
+-- Your program stdout: -- 
+149	Q0	clueweb09-en0000-97-06228	1	1.0	run-1 
+149	Q0	clueweb09-en0000-99-20299	2	1.0	run-1 
+149	Q0	clueweb09-en0001-12-03645	3	1.0	run-1 
+149	Q0	clueweb09-en0001-21-25495	4	1.0	run-1 
+149	Q0	clueweb09-en0001-29-06746	5	1.0	run-1 
+149	Q0	clueweb09-en0001-51-21742	6	1.0	run-1 
+149	Q0	clueweb09-en0001-93-20942	7	1.0	run-1 
+149	Q0	clueweb09-en0002-02-16140	8	1.0	run-1 
+149	Q0	clueweb09-en0002-04-26889	9	1.0	run-1 
+149	Q0	clueweb09-en0002-04-26891	10	1.0	run-1 
+149	Q0	clueweb09-en0002-04-26897	11	1.0	run-1 
+149	Q0	clueweb09-en0002-06-10623	12	1.0	run-1 
+149	Q0	clueweb09-en0002-49-17861	13	1.0	run-1 
+149	Q0	clueweb09-en0002-63-20850	14	1.0	run-1 
+149	Q0	clueweb09-en0002-83-28784	15	1.0	run-1 
+149	Q0	clueweb09-en0002-92-00594	16	1.0	run-1 
+149	Q0	clueweb09-en0002-94-17316	17	1.0	run-1 
+149	Q0	clueweb09-en0002-97-00021	18	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26661	19	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26766	20	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26774	21	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26775	22	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26776	23	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26777	24	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26778	25	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26781	26	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26789	27	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26791	28	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26794	29	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26795	30	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26796	31	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26797	32	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26802	33	1.0	run-1 
+149	Q0	clueweb09-en0003-08-31941	34	1.0	run-1 
+149	Q0	clueweb09-en0003-43-16956	35	1.0	run-1 
+149	Q0	clueweb09-en0003-57-14820	36	1.0	run-1 
+149	Q0	clueweb09-en0004-20-31736	37	1.0	run-1 
+149	Q0	clueweb09-en0004-28-03201	38	1.0	run-1 
+149	Q0	clueweb09-en0004-31-10631	39	1.0	run-1 
+149	Q0	clueweb09-en0004-31-10693	40	1.0	run-1 
+149	Q0	clueweb09-en0004-31-10704	41	1.0	run-1 
+149	Q0	clueweb09-en0004-37-01750	42	1.0	run-1 
+149	Q0	clueweb09-en0004-48-14257	43	1.0	run-1 
+149	Q0	clueweb09-en0005-19-22028	44	1.0	run-1 
+149	Q0	clueweb09-en0005-84-28959	45	1.0	run-1 
+149	Q0	clueweb09-en0005-88-07146	46	1.0	run-1 
+149	Q0	clueweb09-en0005-99-18499	47	1.0	run-1 
+149	Q0	clueweb09-en0006-14-32778	48	1.0	run-1 
+149	Q0	clueweb09-en0006-36-32109	49	1.0	run-1 
+149	Q0	clueweb09-en0006-64-18367	50	1.0	run-1 
+149	Q0	clueweb09-en0006-74-20162	51	1.0	run-1 
+149	Q0	clueweb09-en0006-79-24044	52	1.0	run-1 
+149	Q0	clueweb09-en0007-01-26086	53	1.0	run-1 
+149	Q0	clueweb09-en0007-21-15570	54	1.0	run-1 
+149	Q0	clueweb09-en0008-10-11732	55	1.0	run-1 
+149	Q0	clueweb09-en0008-78-41159	56	1.0	run-1 
+149	Q0	clueweb09-en0008-78-41161	57	1.0	run-1 
+149	Q0	clueweb09-en0008-78-41168	58	1.0	run-1 
+149	Q0	clueweb09-en0008-89-29303	59	1.0	run-1 
+149	Q0	clueweb09-en0009-20-07595	60	1.0	run-1 
+149	Q0	clueweb09-en0009-20-07613	61	1.0	run-1 
+149	Q0	clueweb09-en0009-25-22037	62	1.0	run-1 
+149	Q0	clueweb09-en0010-31-27455	63	1.0	run-1 
+149	Q0	clueweb09-en0010-58-05004	64	1.0	run-1 
+149	Q0	clueweb09-en0011-13-29492	65	1.0	run-1 
+149	Q0	clueweb09-en0011-14-20282	66	1.0	run-1 
+149	Q0	clueweb09-en0011-45-27440	67	1.0	run-1 
+149	Q0	clueweb09-en0011-45-31490	68	1.0	run-1 
+149	Q0	clueweb09-en0011-84-23510	69	1.0	run-1 
+149	Q0	clueweb09-en0011-89-12276	70	1.0	run-1 
+149	Q0	clueweb09-en0011-89-12298	71	1.0	run-1 
+149	Q0	clueweb09-en0011-89-12300	72	1.0	run-1 
+149	Q0	clueweb09-en0011-89-12306	73	1.0	run-1 
+149	Q0	clueweb09-en0011-98-31791	74	1.0	run-1 
+149	Q0	clueweb09-en0011-98-31792	75	1.0	run-1 
+149	Q0	clueweb09-en0011-98-31793	76	1.0	run-1 
+149	Q0	clueweb09-enwp00-51-05282	77	1.0	run-1 
+149	Q0	clueweb09-enwp00-84-01049	78	1.0	run-1 
+149	Q0	clueweb09-enwp00-87-01051	79	1.0	run-1 
+149	Q0	clueweb09-enwp00-88-05350	80	1.0	run-1 
+149	Q0	clueweb09-enwp00-88-12116	81	1.0	run-1 
+149	Q0	clueweb09-enwp00-93-22802	82	1.0	run-1 
+149	Q0	clueweb09-enwp00-95-01480	83	1.0	run-1 
+149	Q0	clueweb09-enwp00-95-06351	84	1.0	run-1 
+149	Q0	clueweb09-enwp00-96-00650	85	1.0	run-1 
+149	Q0	clueweb09-enwp01-12-01737	86	1.0	run-1 
+149	Q0	clueweb09-enwp01-12-06619	87	1.0	run-1 
+149	Q0	clueweb09-enwp01-18-10595	88	1.0	run-1 
+149	Q0	clueweb09-enwp01-19-20384	89	1.0	run-1 
+149	Q0	clueweb09-enwp01-56-00580	90	1.0	run-1 
+149	Q0	clueweb09-enwp01-56-05396	91	1.0	run-1 
+149	Q0	clueweb09-enwp01-63-20048	92	1.0	run-1 
+149	Q0	clueweb09-enwp01-63-22706	93	1.0	run-1 
+149	Q0	clueweb09-enwp01-69-22643	94	1.0	run-1 
+149	Q0	clueweb09-enwp01-70-19331	95	1.0	run-1 
+149	Q0	clueweb09-enwp01-72-09379	96	1.0	run-1 
+149	Q0	clueweb09-enwp01-75-18817	97	1.0	run-1 
+149	Q0	clueweb09-enwp01-89-12933	98	1.0	run-1 
+149	Q0	clueweb09-enwp01-90-18659	99	1.0	run-1 
+149	Q0	clueweb09-enwp01-91-11160	100	1.0	run-1 
+Memory used: 51 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	62 
+num_rel_ret all	21 
+map all	0.0802 
+gm_ap all	0.0802 
+R-prec all	0.2419 
+bpref all	0.1621 
+recip_rank all	0.5000 
+ircl_prn.0.00 all	0.5000 
+ircl_prn.0.10 all	0.2642 
+ircl_prn.0.20 all	0.2642 
+ircl_prn.0.30 all	0.2121 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.2000 
+P10 all	0.2000 
+P15 all	0.1333 
+P20 all	0.1000 
+P30 all	0.1667 
+P100 all	0.2100 
+P200 all	0.1050 
+P500 all	0.0420 
+P1000 all	0.0210 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-23 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-23.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-23.teIn 
+retrievalAlgorithm=RankedBoolean 
+
+-- Your program stdout: -- 
+149	Q0	clueweb09-en0004-31-10704	1	40.0	run-1 
+149	Q0	clueweb09-en0003-01-26777	2	39.0	run-1 
+149	Q0	clueweb09-en0003-01-26776	3	25.0	run-1 
+149	Q0	clueweb09-en0003-01-26774	4	20.0	run-1 
+149	Q0	clueweb09-en0003-01-26781	5	20.0	run-1 
+149	Q0	clueweb09-en0002-83-28784	6	10.0	run-1 
+149	Q0	clueweb09-en0003-01-26766	7	7.0	run-1 
+149	Q0	clueweb09-en0004-28-03201	8	6.0	run-1 
+149	Q0	clueweb09-en0005-19-22028	9	6.0	run-1 
+149	Q0	clueweb09-en0002-02-16140	10	5.0	run-1 
+149	Q0	clueweb09-en0003-01-26778	11	5.0	run-1 
+149	Q0	clueweb09-en0003-08-31941	12	5.0	run-1 
+149	Q0	clueweb09-en0001-29-06746	13	4.0	run-1 
+149	Q0	clueweb09-en0003-01-26797	14	4.0	run-1 
+149	Q0	clueweb09-en0003-57-14820	15	4.0	run-1 
+149	Q0	clueweb09-en0005-88-07146	16	4.0	run-1 
+149	Q0	clueweb09-en0011-14-20282	17	4.0	run-1 
+149	Q0	clueweb09-enwp01-18-10595	18	4.0	run-1 
+149	Q0	clueweb09-enwp01-70-19331	19	4.0	run-1 
+149	Q0	clueweb09-enwp01-90-18659	20	4.0	run-1 
+149	Q0	clueweb09-enwp02-01-19234	21	4.0	run-1 
+149	Q0	clueweb09-enwp03-26-23161	22	4.0	run-1 
+149	Q0	clueweb09-enwp03-40-00516	23	4.0	run-1 
+149	Q0	clueweb09-enwp03-44-00114	24	4.0	run-1 
+149	Q0	clueweb09-enwp03-45-00686	25	4.0	run-1 
+149	Q0	clueweb09-enwp03-56-00042	26	4.0	run-1 
+149	Q0	clueweb09-enwp03-57-00231	27	4.0	run-1 
+149	Q0	clueweb09-en0002-06-10623	28	3.0	run-1 
+149	Q0	clueweb09-en0003-01-26775	29	3.0	run-1 
+149	Q0	clueweb09-en0003-01-26791	30	3.0	run-1 
+149	Q0	clueweb09-en0003-01-26794	31	3.0	run-1 
+149	Q0	clueweb09-en0003-01-26796	32	3.0	run-1 
+149	Q0	clueweb09-en0003-01-26802	33	3.0	run-1 
+149	Q0	clueweb09-en0010-58-05004	34	3.0	run-1 
+149	Q0	clueweb09-en0001-21-25495	35	2.0	run-1 
+149	Q0	clueweb09-en0002-63-20850	36	2.0	run-1 
+149	Q0	clueweb09-en0003-01-26661	37	2.0	run-1 
+149	Q0	clueweb09-en0003-01-26789	38	2.0	run-1 
+149	Q0	clueweb09-en0004-31-10631	39	2.0	run-1 
+149	Q0	clueweb09-en0004-31-10693	40	2.0	run-1 
+149	Q0	clueweb09-en0006-14-32778	41	2.0	run-1 
+149	Q0	clueweb09-en0006-74-20162	42	2.0	run-1 
+149	Q0	clueweb09-en0006-79-24044	43	2.0	run-1 
+149	Q0	clueweb09-en0007-01-26086	44	2.0	run-1 
+149	Q0	clueweb09-en0008-10-11732	45	2.0	run-1 
+149	Q0	clueweb09-en0009-20-07613	46	2.0	run-1 
+149	Q0	clueweb09-en0009-25-22037	47	2.0	run-1 
+149	Q0	clueweb09-en0011-45-31490	48	2.0	run-1 
+149	Q0	clueweb09-en0011-89-12276	49	2.0	run-1 
+149	Q0	clueweb09-en0011-89-12306	50	2.0	run-1 
+149	Q0	clueweb09-en0011-98-31791	51	2.0	run-1 
+149	Q0	clueweb09-enwp00-51-05282	52	2.0	run-1 
+149	Q0	clueweb09-enwp00-95-06351	53	2.0	run-1 
+149	Q0	clueweb09-enwp01-63-20048	54	2.0	run-1 
+149	Q0	clueweb09-enwp01-75-18817	55	2.0	run-1 
+149	Q0	clueweb09-enwp02-13-20788	56	2.0	run-1 
+149	Q0	clueweb09-enwp03-13-00604	57	2.0	run-1 
+149	Q0	clueweb09-enwp03-15-00513	58	2.0	run-1 
+149	Q0	clueweb09-enwp03-17-23697	59	2.0	run-1 
+149	Q0	clueweb09-enwp03-38-19161	60	2.0	run-1 
+149	Q0	clueweb09-en0000-97-06228	61	1.0	run-1 
+149	Q0	clueweb09-en0000-99-20299	62	1.0	run-1 
+149	Q0	clueweb09-en0001-12-03645	63	1.0	run-1 
+149	Q0	clueweb09-en0001-51-21742	64	1.0	run-1 
+149	Q0	clueweb09-en0001-93-20942	65	1.0	run-1 
+149	Q0	clueweb09-en0002-04-26889	66	1.0	run-1 
+149	Q0	clueweb09-en0002-04-26891	67	1.0	run-1 
+149	Q0	clueweb09-en0002-04-26897	68	1.0	run-1 
+149	Q0	clueweb09-en0002-49-17861	69	1.0	run-1 
+149	Q0	clueweb09-en0002-92-00594	70	1.0	run-1 
+149	Q0	clueweb09-en0002-94-17316	71	1.0	run-1 
+149	Q0	clueweb09-en0002-97-00021	72	1.0	run-1 
+149	Q0	clueweb09-en0003-01-26795	73	1.0	run-1 
+149	Q0	clueweb09-en0003-43-16956	74	1.0	run-1 
+149	Q0	clueweb09-en0004-20-31736	75	1.0	run-1 
+149	Q0	clueweb09-en0004-37-01750	76	1.0	run-1 
+149	Q0	clueweb09-en0004-48-14257	77	1.0	run-1 
+149	Q0	clueweb09-en0005-84-28959	78	1.0	run-1 
+149	Q0	clueweb09-en0005-99-18499	79	1.0	run-1 
+149	Q0	clueweb09-en0006-36-32109	80	1.0	run-1 
+149	Q0	clueweb09-en0006-64-18367	81	1.0	run-1 
+149	Q0	clueweb09-en0007-21-15570	82	1.0	run-1 
+149	Q0	clueweb09-en0008-78-41159	83	1.0	run-1 
+149	Q0	clueweb09-en0008-78-41161	84	1.0	run-1 
+149	Q0	clueweb09-en0008-78-41168	85	1.0	run-1 
+149	Q0	clueweb09-en0008-89-29303	86	1.0	run-1 
+149	Q0	clueweb09-en0009-20-07595	87	1.0	run-1 
+149	Q0	clueweb09-en0010-31-27455	88	1.0	run-1 
+149	Q0	clueweb09-en0011-13-29492	89	1.0	run-1 
+149	Q0	clueweb09-en0011-45-27440	90	1.0	run-1 
+149	Q0	clueweb09-en0011-84-23510	91	1.0	run-1 
+149	Q0	clueweb09-en0011-89-12298	92	1.0	run-1 
+149	Q0	clueweb09-en0011-89-12300	93	1.0	run-1 
+149	Q0	clueweb09-en0011-98-31792	94	1.0	run-1 
+149	Q0	clueweb09-en0011-98-31793	95	1.0	run-1 
+149	Q0	clueweb09-enwp00-84-01049	96	1.0	run-1 
+149	Q0	clueweb09-enwp00-87-01051	97	1.0	run-1 
+149	Q0	clueweb09-enwp00-88-05350	98	1.0	run-1 
+149	Q0	clueweb09-enwp00-88-12116	99	1.0	run-1 
+149	Q0	clueweb09-enwp00-93-22802	100	1.0	run-1 
+Memory used: 51 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	62 
+num_rel_ret all	28 
+map all	0.1706 
+gm_ap all	0.1706 
+R-prec all	0.3710 
+bpref all	0.3057 
+recip_rank all	0.1250 
+ircl_prn.0.00 all	0.5238 
+ircl_prn.0.10 all	0.5238 
+ircl_prn.0.20 all	0.5000 
+ircl_prn.0.30 all	0.4074 
+ircl_prn.0.40 all	0.3623 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.1000 
+P15 all	0.3333 
+P20 all	0.5000 
+P30 all	0.4667 
+P100 all	0.2800 
+P200 all	0.1400 
+P500 all	0.0560 
+P1000 all	0.0280 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-24 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-24.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-24.teIn 
+retrievalAlgorithm=UnrankedBoolean 
+
+-- Your program stdout: -- 
+29	Q0	clueweb09-en0000-21-14576	1	1.0	run-1 
+29	Q0	clueweb09-en0000-24-17115	2	1.0	run-1 
+29	Q0	clueweb09-en0000-37-06356	3	1.0	run-1 
+29	Q0	clueweb09-en0000-41-24559	4	1.0	run-1 
+29	Q0	clueweb09-en0000-74-23039	5	1.0	run-1 
+29	Q0	clueweb09-en0000-76-20790	6	1.0	run-1 
+29	Q0	clueweb09-en0001-02-19735	7	1.0	run-1 
+29	Q0	clueweb09-en0001-03-05755	8	1.0	run-1 
+29	Q0	clueweb09-en0001-04-03566	9	1.0	run-1 
+29	Q0	clueweb09-en0001-10-12999	10	1.0	run-1 
+29	Q0	clueweb09-en0001-19-27476	11	1.0	run-1 
+29	Q0	clueweb09-en0001-19-27544	12	1.0	run-1 
+29	Q0	clueweb09-en0001-22-03095	13	1.0	run-1 
+29	Q0	clueweb09-en0001-24-06988	14	1.0	run-1 
+29	Q0	clueweb09-en0001-26-27648	15	1.0	run-1 
+29	Q0	clueweb09-en0001-26-27688	16	1.0	run-1 
+29	Q0	clueweb09-en0001-48-17430	17	1.0	run-1 
+29	Q0	clueweb09-en0001-55-15054	18	1.0	run-1 
+29	Q0	clueweb09-en0001-61-05759	19	1.0	run-1 
+29	Q0	clueweb09-en0001-68-20627	20	1.0	run-1 
+29	Q0	clueweb09-en0001-80-29023	21	1.0	run-1 
+29	Q0	clueweb09-en0001-83-01026	22	1.0	run-1 
+29	Q0	clueweb09-en0001-83-01197	23	1.0	run-1 
+29	Q0	clueweb09-en0001-87-20940	24	1.0	run-1 
+29	Q0	clueweb09-en0001-92-14352	25	1.0	run-1 
+29	Q0	clueweb09-en0001-93-14915	26	1.0	run-1 
+29	Q0	clueweb09-en0002-34-15272	27	1.0	run-1 
+29	Q0	clueweb09-en0002-38-29364	28	1.0	run-1 
+29	Q0	clueweb09-en0002-41-07201	29	1.0	run-1 
+29	Q0	clueweb09-en0002-79-13769	30	1.0	run-1 
+29	Q0	clueweb09-en0002-81-23066	31	1.0	run-1 
+29	Q0	clueweb09-en0002-81-26299	32	1.0	run-1 
+29	Q0	clueweb09-en0002-81-26338	33	1.0	run-1 
+29	Q0	clueweb09-en0002-81-26342	34	1.0	run-1 
+29	Q0	clueweb09-en0003-09-06305	35	1.0	run-1 
+29	Q0	clueweb09-en0003-13-14486	36	1.0	run-1 
+29	Q0	clueweb09-en0003-33-23184	37	1.0	run-1 
+29	Q0	clueweb09-en0003-41-14473	38	1.0	run-1 
+29	Q0	clueweb09-en0003-50-16719	39	1.0	run-1 
+29	Q0	clueweb09-en0003-59-07163	40	1.0	run-1 
+29	Q0	clueweb09-en0003-59-19284	41	1.0	run-1 
+29	Q0	clueweb09-en0003-60-23770	42	1.0	run-1 
+29	Q0	clueweb09-en0003-62-18707	43	1.0	run-1 
+29	Q0	clueweb09-en0003-74-01937	44	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22286	45	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22579	46	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22623	47	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22632	48	1.0	run-1 
+29	Q0	clueweb09-en0003-83-23010	49	1.0	run-1 
+29	Q0	clueweb09-en0003-83-23076	50	1.0	run-1 
+29	Q0	clueweb09-en0003-84-04279	51	1.0	run-1 
+29	Q0	clueweb09-en0003-84-10140	52	1.0	run-1 
+29	Q0	clueweb09-en0003-90-33671	53	1.0	run-1 
+29	Q0	clueweb09-en0003-93-16170	54	1.0	run-1 
+29	Q0	clueweb09-en0004-07-03779	55	1.0	run-1 
+29	Q0	clueweb09-en0004-09-20944	56	1.0	run-1 
+29	Q0	clueweb09-en0004-09-20970	57	1.0	run-1 
+29	Q0	clueweb09-en0004-09-20975	58	1.0	run-1 
+29	Q0	clueweb09-en0004-18-04041	59	1.0	run-1 
+29	Q0	clueweb09-en0004-19-06116	60	1.0	run-1 
+29	Q0	clueweb09-en0004-19-08759	61	1.0	run-1 
+29	Q0	clueweb09-en0004-28-00454	62	1.0	run-1 
+29	Q0	clueweb09-en0004-37-01134	63	1.0	run-1 
+29	Q0	clueweb09-en0004-37-02083	64	1.0	run-1 
+29	Q0	clueweb09-en0004-43-36136	65	1.0	run-1 
+29	Q0	clueweb09-en0004-45-01981	66	1.0	run-1 
+29	Q0	clueweb09-en0004-74-25197	67	1.0	run-1 
+29	Q0	clueweb09-en0004-80-01372	68	1.0	run-1 
+29	Q0	clueweb09-en0004-81-34531	69	1.0	run-1 
+29	Q0	clueweb09-en0004-91-05049	70	1.0	run-1 
+29	Q0	clueweb09-en0005-04-02827	71	1.0	run-1 
+29	Q0	clueweb09-en0005-18-29983	72	1.0	run-1 
+29	Q0	clueweb09-en0005-22-36375	73	1.0	run-1 
+29	Q0	clueweb09-en0005-40-36160	74	1.0	run-1 
+29	Q0	clueweb09-en0005-40-36197	75	1.0	run-1 
+29	Q0	clueweb09-en0005-40-36199	76	1.0	run-1 
+29	Q0	clueweb09-en0005-66-26526	77	1.0	run-1 
+29	Q0	clueweb09-en0005-97-31330	78	1.0	run-1 
+29	Q0	clueweb09-en0006-00-07261	79	1.0	run-1 
+29	Q0	clueweb09-en0006-00-07568	80	1.0	run-1 
+29	Q0	clueweb09-en0006-00-07906	81	1.0	run-1 
+29	Q0	clueweb09-en0006-05-35717	82	1.0	run-1 
+29	Q0	clueweb09-en0006-17-19924	83	1.0	run-1 
+29	Q0	clueweb09-en0006-55-21379	84	1.0	run-1 
+29	Q0	clueweb09-en0006-65-10579	85	1.0	run-1 
+29	Q0	clueweb09-en0006-74-29158	86	1.0	run-1 
+29	Q0	clueweb09-en0006-84-27050	87	1.0	run-1 
+29	Q0	clueweb09-en0006-84-27144	88	1.0	run-1 
+29	Q0	clueweb09-en0006-85-13188	89	1.0	run-1 
+29	Q0	clueweb09-en0007-14-21270	90	1.0	run-1 
+29	Q0	clueweb09-en0007-14-21273	91	1.0	run-1 
+29	Q0	clueweb09-en0007-14-21277	92	1.0	run-1 
+29	Q0	clueweb09-en0007-14-21283	93	1.0	run-1 
+29	Q0	clueweb09-en0007-14-21285	94	1.0	run-1 
+29	Q0	clueweb09-en0007-49-01725	95	1.0	run-1 
+29	Q0	clueweb09-en0007-49-25389	96	1.0	run-1 
+29	Q0	clueweb09-en0007-58-16910	97	1.0	run-1 
+29	Q0	clueweb09-en0007-71-16838	98	1.0	run-1 
+29	Q0	clueweb09-en0007-78-22788	99	1.0	run-1 
+29	Q0	clueweb09-en0007-85-30494	100	1.0	run-1 
+Memory used: 88 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	14 
+num_rel_ret all	3 
+map all	0.0054 
+gm_ap all	0.0054 
+R-prec all	0.0000 
+bpref all	0.0000 
+recip_rank all	0.0227 
+ircl_prn.0.00 all	0.0309 
+ircl_prn.0.10 all	0.0309 
+ircl_prn.0.20 all	0.0309 
+ircl_prn.0.30 all	0.0000 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.0000 
+P15 all	0.0000 
+P20 all	0.0000 
+P30 all	0.0000 
+P100 all	0.0300 
+P200 all	0.0150 
+P500 all	0.0060 
+P1000 all	0.0030 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-25 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-25.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-25.teIn 
+retrievalAlgorithm=RankedBoolean 
+
+-- Your program stdout: -- 
+29	Q0	clueweb09-en0008-79-18868	1	47.0	run-1 
+29	Q0	clueweb09-en0008-79-18869	2	47.0	run-1 
+29	Q0	clueweb09-en0011-98-19649	3	47.0	run-1 
+29	Q0	clueweb09-en0008-79-18870	4	30.0	run-1 
+29	Q0	clueweb09-en0008-79-18871	5	24.0	run-1 
+29	Q0	clueweb09-en0001-03-05755	6	14.0	run-1 
+29	Q0	clueweb09-en0002-81-23066	7	14.0	run-1 
+29	Q0	clueweb09-en0001-26-27688	8	10.0	run-1 
+29	Q0	clueweb09-en0002-81-26338	9	9.0	run-1 
+29	Q0	clueweb09-en0005-40-36160	10	8.0	run-1 
+29	Q0	clueweb09-en0005-40-36197	11	8.0	run-1 
+29	Q0	clueweb09-en0006-74-29158	12	8.0	run-1 
+29	Q0	clueweb09-en0000-41-24559	13	7.0	run-1 
+29	Q0	clueweb09-en0000-24-17115	14	6.0	run-1 
+29	Q0	clueweb09-en0000-37-06356	15	6.0	run-1 
+29	Q0	clueweb09-en0005-22-36375	16	6.0	run-1 
+29	Q0	clueweb09-en0005-40-36199	17	6.0	run-1 
+29	Q0	clueweb09-enwp00-01-14557	18	5.0	run-1 
+29	Q0	clueweb09-enwp00-16-14529	19	5.0	run-1 
+29	Q0	clueweb09-en0003-13-14486	20	4.0	run-1 
+29	Q0	clueweb09-en0003-62-18707	21	4.0	run-1 
+29	Q0	clueweb09-en0004-09-20970	22	4.0	run-1 
+29	Q0	clueweb09-en0005-66-26526	23	4.0	run-1 
+29	Q0	clueweb09-en0008-31-34279	24	4.0	run-1 
+29	Q0	clueweb09-en0001-24-06988	25	3.0	run-1 
+29	Q0	clueweb09-en0001-68-20627	26	3.0	run-1 
+29	Q0	clueweb09-en0006-55-21379	27	3.0	run-1 
+29	Q0	clueweb09-en0007-14-21273	28	3.0	run-1 
+29	Q0	clueweb09-en0007-49-25389	29	3.0	run-1 
+29	Q0	clueweb09-en0009-34-26780	30	3.0	run-1 
+29	Q0	clueweb09-en0009-51-13573	31	3.0	run-1 
+29	Q0	clueweb09-enwp01-89-18535	32	3.0	run-1 
+29	Q0	clueweb09-en0000-21-14576	33	2.0	run-1 
+29	Q0	clueweb09-en0000-74-23039	34	2.0	run-1 
+29	Q0	clueweb09-en0001-02-19735	35	2.0	run-1 
+29	Q0	clueweb09-en0001-92-14352	36	2.0	run-1 
+29	Q0	clueweb09-en0002-41-07201	37	2.0	run-1 
+29	Q0	clueweb09-en0003-50-16719	38	2.0	run-1 
+29	Q0	clueweb09-en0003-84-04279	39	2.0	run-1 
+29	Q0	clueweb09-en0004-19-06116	40	2.0	run-1 
+29	Q0	clueweb09-en0004-80-01372	41	2.0	run-1 
+29	Q0	clueweb09-en0007-78-22788	42	2.0	run-1 
+29	Q0	clueweb09-en0009-22-11653	43	2.0	run-1 
+29	Q0	clueweb09-en0010-05-40159	44	2.0	run-1 
+29	Q0	clueweb09-en0010-05-40180	45	2.0	run-1 
+29	Q0	clueweb09-en0000-76-20790	46	1.0	run-1 
+29	Q0	clueweb09-en0001-04-03566	47	1.0	run-1 
+29	Q0	clueweb09-en0001-10-12999	48	1.0	run-1 
+29	Q0	clueweb09-en0001-19-27476	49	1.0	run-1 
+29	Q0	clueweb09-en0001-19-27544	50	1.0	run-1 
+29	Q0	clueweb09-en0001-22-03095	51	1.0	run-1 
+29	Q0	clueweb09-en0001-26-27648	52	1.0	run-1 
+29	Q0	clueweb09-en0001-48-17430	53	1.0	run-1 
+29	Q0	clueweb09-en0001-55-15054	54	1.0	run-1 
+29	Q0	clueweb09-en0001-61-05759	55	1.0	run-1 
+29	Q0	clueweb09-en0001-80-29023	56	1.0	run-1 
+29	Q0	clueweb09-en0001-83-01026	57	1.0	run-1 
+29	Q0	clueweb09-en0001-83-01197	58	1.0	run-1 
+29	Q0	clueweb09-en0001-87-20940	59	1.0	run-1 
+29	Q0	clueweb09-en0001-93-14915	60	1.0	run-1 
+29	Q0	clueweb09-en0002-34-15272	61	1.0	run-1 
+29	Q0	clueweb09-en0002-38-29364	62	1.0	run-1 
+29	Q0	clueweb09-en0002-79-13769	63	1.0	run-1 
+29	Q0	clueweb09-en0002-81-26299	64	1.0	run-1 
+29	Q0	clueweb09-en0002-81-26342	65	1.0	run-1 
+29	Q0	clueweb09-en0003-09-06305	66	1.0	run-1 
+29	Q0	clueweb09-en0003-33-23184	67	1.0	run-1 
+29	Q0	clueweb09-en0003-41-14473	68	1.0	run-1 
+29	Q0	clueweb09-en0003-59-07163	69	1.0	run-1 
+29	Q0	clueweb09-en0003-59-19284	70	1.0	run-1 
+29	Q0	clueweb09-en0003-60-23770	71	1.0	run-1 
+29	Q0	clueweb09-en0003-74-01937	72	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22286	73	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22579	74	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22623	75	1.0	run-1 
+29	Q0	clueweb09-en0003-83-22632	76	1.0	run-1 
+29	Q0	clueweb09-en0003-83-23010	77	1.0	run-1 
+29	Q0	clueweb09-en0003-83-23076	78	1.0	run-1 
+29	Q0	clueweb09-en0003-84-10140	79	1.0	run-1 
+29	Q0	clueweb09-en0003-90-33671	80	1.0	run-1 
+29	Q0	clueweb09-en0003-93-16170	81	1.0	run-1 
+29	Q0	clueweb09-en0004-07-03779	82	1.0	run-1 
+29	Q0	clueweb09-en0004-09-20944	83	1.0	run-1 
+29	Q0	clueweb09-en0004-09-20975	84	1.0	run-1 
+29	Q0	clueweb09-en0004-18-04041	85	1.0	run-1 
+29	Q0	clueweb09-en0004-19-08759	86	1.0	run-1 
+29	Q0	clueweb09-en0004-28-00454	87	1.0	run-1 
+29	Q0	clueweb09-en0004-37-01134	88	1.0	run-1 
+29	Q0	clueweb09-en0004-37-02083	89	1.0	run-1 
+29	Q0	clueweb09-en0004-43-36136	90	1.0	run-1 
+29	Q0	clueweb09-en0004-45-01981	91	1.0	run-1 
+29	Q0	clueweb09-en0004-74-25197	92	1.0	run-1 
+29	Q0	clueweb09-en0004-81-34531	93	1.0	run-1 
+29	Q0	clueweb09-en0004-91-05049	94	1.0	run-1 
+29	Q0	clueweb09-en0005-04-02827	95	1.0	run-1 
+29	Q0	clueweb09-en0005-18-29983	96	1.0	run-1 
+29	Q0	clueweb09-en0005-97-31330	97	1.0	run-1 
+29	Q0	clueweb09-en0006-00-07261	98	1.0	run-1 
+29	Q0	clueweb09-en0006-00-07568	99	1.0	run-1 
+29	Q0	clueweb09-en0006-00-07906	100	1.0	run-1 
+Memory used: 88 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	14 
+num_rel_ret all	3 
+map all	0.0309 
+gm_ap all	0.0309 
+R-prec all	0.1429 
+bpref all	0.0561 
+recip_rank all	0.1429 
+ircl_prn.0.00 all	0.1538 
+ircl_prn.0.10 all	0.1538 
+ircl_prn.0.20 all	0.1364 
+ircl_prn.0.30 all	0.0000 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.1000 
+P15 all	0.1333 
+P20 all	0.1000 
+P30 all	0.1000 
+P100 all	0.0300 
+P200 all	0.0150 
+P500 all	0.0060 
+P1000 all	0.0030 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-26 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-26.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-26.teIn 
+retrievalAlgorithm=UnrankedBoolean 
+
+-- Your program stdout: -- 
+190	Q0	clueweb09-en0000-00-01559	1	1.0	run-1 
+190	Q0	clueweb09-en0000-00-01986	2	1.0	run-1 
+190	Q0	clueweb09-en0000-00-03080	3	1.0	run-1 
+190	Q0	clueweb09-en0000-00-03430	4	1.0	run-1 
+190	Q0	clueweb09-en0000-00-03431	5	1.0	run-1 
+190	Q0	clueweb09-en0000-00-03434	6	1.0	run-1 
+190	Q0	clueweb09-en0000-00-03438	7	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04022	8	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04023	9	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04024	10	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04025	11	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04027	12	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04028	13	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04029	14	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04030	15	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04032	16	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04033	17	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04034	18	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04038	19	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04041	20	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04042	21	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04043	22	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04044	23	1.0	run-1 
+190	Q0	clueweb09-en0000-00-04973	24	1.0	run-1 
+190	Q0	clueweb09-en0000-00-05550	25	1.0	run-1 
+190	Q0	clueweb09-en0000-00-08183	26	1.0	run-1 
+190	Q0	clueweb09-en0000-00-08193	27	1.0	run-1 
+190	Q0	clueweb09-en0000-00-09191	28	1.0	run-1 
+190	Q0	clueweb09-en0000-00-09361	29	1.0	run-1 
+190	Q0	clueweb09-en0000-00-09410	30	1.0	run-1 
+190	Q0	clueweb09-en0000-00-09771	31	1.0	run-1 
+190	Q0	clueweb09-en0000-00-10987	32	1.0	run-1 
+190	Q0	clueweb09-en0000-00-13314	33	1.0	run-1 
+190	Q0	clueweb09-en0000-00-13315	34	1.0	run-1 
+190	Q0	clueweb09-en0000-00-13316	35	1.0	run-1 
+190	Q0	clueweb09-en0000-00-13369	36	1.0	run-1 
+190	Q0	clueweb09-en0000-00-14782	37	1.0	run-1 
+190	Q0	clueweb09-en0000-00-15060	38	1.0	run-1 
+190	Q0	clueweb09-en0000-00-16329	39	1.0	run-1 
+190	Q0	clueweb09-en0000-00-16781	40	1.0	run-1 
+190	Q0	clueweb09-en0000-00-17601	41	1.0	run-1 
+190	Q0	clueweb09-en0000-00-17602	42	1.0	run-1 
+190	Q0	clueweb09-en0000-00-17604	43	1.0	run-1 
+190	Q0	clueweb09-en0000-00-17608	44	1.0	run-1 
+190	Q0	clueweb09-en0000-00-17764	45	1.0	run-1 
+190	Q0	clueweb09-en0000-00-21036	46	1.0	run-1 
+190	Q0	clueweb09-en0000-00-21138	47	1.0	run-1 
+190	Q0	clueweb09-en0000-00-22332	48	1.0	run-1 
+190	Q0	clueweb09-en0000-00-26908	49	1.0	run-1 
+190	Q0	clueweb09-en0000-00-29696	50	1.0	run-1 
+190	Q0	clueweb09-en0000-00-34068	51	1.0	run-1 
+190	Q0	clueweb09-en0000-00-35004	52	1.0	run-1 
+190	Q0	clueweb09-en0000-01-01749	53	1.0	run-1 
+190	Q0	clueweb09-en0000-01-03808	54	1.0	run-1 
+190	Q0	clueweb09-en0000-01-05494	55	1.0	run-1 
+190	Q0	clueweb09-en0000-01-08191	56	1.0	run-1 
+190	Q0	clueweb09-en0000-01-08623	57	1.0	run-1 
+190	Q0	clueweb09-en0000-01-10241	58	1.0	run-1 
+190	Q0	clueweb09-en0000-01-10244	59	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12048	60	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12050	61	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12052	62	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12061	63	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12093	64	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12502	65	1.0	run-1 
+190	Q0	clueweb09-en0000-01-12975	66	1.0	run-1 
+190	Q0	clueweb09-en0000-01-13023	67	1.0	run-1 
+190	Q0	clueweb09-en0000-01-13024	68	1.0	run-1 
+190	Q0	clueweb09-en0000-01-13878	69	1.0	run-1 
+190	Q0	clueweb09-en0000-01-14676	70	1.0	run-1 
+190	Q0	clueweb09-en0000-01-15253	71	1.0	run-1 
+190	Q0	clueweb09-en0000-01-15281	72	1.0	run-1 
+190	Q0	clueweb09-en0000-01-15728	73	1.0	run-1 
+190	Q0	clueweb09-en0000-01-16523	74	1.0	run-1 
+190	Q0	clueweb09-en0000-01-17594	75	1.0	run-1 
+190	Q0	clueweb09-en0000-01-17965	76	1.0	run-1 
+190	Q0	clueweb09-en0000-01-20486	77	1.0	run-1 
+190	Q0	clueweb09-en0000-01-20552	78	1.0	run-1 
+190	Q0	clueweb09-en0000-01-21131	79	1.0	run-1 
+190	Q0	clueweb09-en0000-01-26478	80	1.0	run-1 
+190	Q0	clueweb09-en0000-02-01051	81	1.0	run-1 
+190	Q0	clueweb09-en0000-02-01953	82	1.0	run-1 
+190	Q0	clueweb09-en0000-02-06680	83	1.0	run-1 
+190	Q0	clueweb09-en0000-02-08964	84	1.0	run-1 
+190	Q0	clueweb09-en0000-02-14070	85	1.0	run-1 
+190	Q0	clueweb09-en0000-02-16598	86	1.0	run-1 
+190	Q0	clueweb09-en0000-02-18753	87	1.0	run-1 
+190	Q0	clueweb09-en0000-02-19378	88	1.0	run-1 
+190	Q0	clueweb09-en0000-02-19421	89	1.0	run-1 
+190	Q0	clueweb09-en0000-02-19762	90	1.0	run-1 
+190	Q0	clueweb09-en0000-02-19785	91	1.0	run-1 
+190	Q0	clueweb09-en0000-02-19796	92	1.0	run-1 
+190	Q0	clueweb09-en0000-02-20039	93	1.0	run-1 
+190	Q0	clueweb09-en0000-02-21255	94	1.0	run-1 
+190	Q0	clueweb09-en0000-02-21364	95	1.0	run-1 
+190	Q0	clueweb09-en0000-02-23688	96	1.0	run-1 
+190	Q0	clueweb09-en0000-02-23993	97	1.0	run-1 
+190	Q0	clueweb09-en0000-02-24324	98	1.0	run-1 
+190	Q0	clueweb09-en0000-02-30331	99	1.0	run-1 
+190	Q0	clueweb09-en0000-02-30349	100	1.0	run-1 
+Memory used: 57 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	20 
+num_rel_ret all	0 
+map all	0.0000 
+gm_ap all	0.0000 
+R-prec all	0.0000 
+bpref all	0.0000 
+recip_rank all	0.0000 
+ircl_prn.0.00 all	0.0000 
+ircl_prn.0.10 all	0.0000 
+ircl_prn.0.20 all	0.0000 
+ircl_prn.0.30 all	0.0000 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.0000 
+P15 all	0.0000 
+P20 all	0.0000 
+P30 all	0.0000 
+P100 all	0.0000 
+P200 all	0.0000 
+P500 all	0.0000 
+P1000 all	0.0000 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-27 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-27.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-27.teIn 
+retrievalAlgorithm=RankedBoolean 
+
+-- Your program stdout: -- 
+190	Q0	clueweb09-en0003-01-15659	1	2014.0	run-1 
+190	Q0	clueweb09-en0004-90-07658	2	2007.0	run-1 
+190	Q0	clueweb09-en0000-36-07440	3	2006.0	run-1 
+190	Q0	clueweb09-en0004-65-06611	4	2002.0	run-1 
+190	Q0	clueweb09-en0003-67-02800	5	563.0	run-1 
+190	Q0	clueweb09-en0003-13-14451	6	397.0	run-1 
+190	Q0	clueweb09-en0000-38-06834	7	357.0	run-1 
+190	Q0	clueweb09-en0008-68-33580	8	265.0	run-1 
+190	Q0	clueweb09-enwp00-32-03445	9	191.0	run-1 
+190	Q0	clueweb09-en0010-28-21730	10	153.0	run-1 
+190	Q0	clueweb09-enwp03-32-07815	11	138.0	run-1 
+190	Q0	clueweb09-en0000-35-19942	12	101.0	run-1 
+190	Q0	clueweb09-en0001-07-00807	13	101.0	run-1 
+190	Q0	clueweb09-en0009-98-27245	14	90.0	run-1 
+190	Q0	clueweb09-en0003-27-30652	15	87.0	run-1 
+190	Q0	clueweb09-enwp02-00-15713	16	83.0	run-1 
+190	Q0	clueweb09-en0000-32-18166	17	78.0	run-1 
+190	Q0	clueweb09-enwp01-39-11541	18	71.0	run-1 
+190	Q0	clueweb09-en0009-98-27243	19	70.0	run-1 
+190	Q0	clueweb09-enwp00-05-16392	20	68.0	run-1 
+190	Q0	clueweb09-enwp00-43-16505	21	68.0	run-1 
+190	Q0	clueweb09-enwp01-19-17856	22	68.0	run-1 
+190	Q0	clueweb09-enwp01-20-22180	23	68.0	run-1 
+190	Q0	clueweb09-enwp01-50-00439	24	68.0	run-1 
+190	Q0	clueweb09-enwp03-09-18413	25	68.0	run-1 
+190	Q0	clueweb09-en0000-01-10244	26	67.0	run-1 
+190	Q0	clueweb09-en0003-52-22376	27	67.0	run-1 
+190	Q0	clueweb09-en0004-07-04535	28	67.0	run-1 
+190	Q0	clueweb09-en0002-31-23640	29	66.0	run-1 
+190	Q0	clueweb09-enwp00-30-16648	30	65.0	run-1 
+190	Q0	clueweb09-en0006-48-13234	31	64.0	run-1 
+190	Q0	clueweb09-en0008-15-27224	32	64.0	run-1 
+190	Q0	clueweb09-enwp00-24-00186	33	64.0	run-1 
+190	Q0	clueweb09-en0007-72-10770	34	63.0	run-1 
+190	Q0	clueweb09-enwp00-30-10456	35	63.0	run-1 
+190	Q0	clueweb09-en0004-73-07735	36	59.0	run-1 
+190	Q0	clueweb09-en0009-58-24801	37	56.0	run-1 
+190	Q0	clueweb09-en0006-88-44653	38	55.0	run-1 
+190	Q0	clueweb09-en0006-31-35491	39	53.0	run-1 
+190	Q0	clueweb09-en0008-52-11991	40	53.0	run-1 
+190	Q0	clueweb09-en0010-95-23247	41	51.0	run-1 
+190	Q0	clueweb09-en0000-89-29896	42	50.0	run-1 
+190	Q0	clueweb09-enwp01-04-16486	43	50.0	run-1 
+190	Q0	clueweb09-en0004-77-11714	44	49.0	run-1 
+190	Q0	clueweb09-en0005-31-23364	45	49.0	run-1 
+190	Q0	clueweb09-en0009-09-23223	46	49.0	run-1 
+190	Q0	clueweb09-en0011-20-21450	47	49.0	run-1 
+190	Q0	clueweb09-enwp03-30-02242	48	49.0	run-1 
+190	Q0	clueweb09-en0003-42-13284	49	48.0	run-1 
+190	Q0	clueweb09-en0010-03-08930	50	47.0	run-1 
+190	Q0	clueweb09-en0011-98-26389	51	47.0	run-1 
+190	Q0	clueweb09-enwp02-21-02556	52	47.0	run-1 
+190	Q0	clueweb09-enwp03-05-21333	53	47.0	run-1 
+190	Q0	clueweb09-en0008-21-17496	54	46.0	run-1 
+190	Q0	clueweb09-enwp03-10-03417	55	46.0	run-1 
+190	Q0	clueweb09-en0010-71-15218	56	45.0	run-1 
+190	Q0	clueweb09-enwp01-83-06598	57	45.0	run-1 
+190	Q0	clueweb09-en0001-48-05197	58	43.0	run-1 
+190	Q0	clueweb09-enwp02-23-05061	59	43.0	run-1 
+190	Q0	clueweb09-en0002-29-00309	60	42.0	run-1 
+190	Q0	clueweb09-en0010-92-26382	61	42.0	run-1 
+190	Q0	clueweb09-en0005-12-13786	62	41.0	run-1 
+190	Q0	clueweb09-en0010-19-34502	63	41.0	run-1 
+190	Q0	clueweb09-enwp03-06-14584	64	41.0	run-1 
+190	Q0	clueweb09-en0003-43-06971	65	39.0	run-1 
+190	Q0	clueweb09-en0008-95-41787	66	39.0	run-1 
+190	Q0	clueweb09-enwp02-04-02721	67	39.0	run-1 
+190	Q0	clueweb09-enwp03-26-03040	68	39.0	run-1 
+190	Q0	clueweb09-en0000-95-24042	69	38.0	run-1 
+190	Q0	clueweb09-en0003-65-01089	70	38.0	run-1 
+190	Q0	clueweb09-enwp00-56-09700	71	38.0	run-1 
+190	Q0	clueweb09-en0005-06-00808	72	37.0	run-1 
+190	Q0	clueweb09-en0007-87-34073	73	37.0	run-1 
+190	Q0	clueweb09-en0008-41-32197	74	37.0	run-1 
+190	Q0	clueweb09-enwp00-33-06095	75	37.0	run-1 
+190	Q0	clueweb09-en0006-63-21300	76	35.0	run-1 
+190	Q0	clueweb09-en0009-75-07279	77	35.0	run-1 
+190	Q0	clueweb09-en0011-33-15478	78	35.0	run-1 
+190	Q0	clueweb09-enwp03-24-18773	79	35.0	run-1 
+190	Q0	clueweb09-en0006-48-12486	80	33.0	run-1 
+190	Q0	clueweb09-en0008-00-27079	81	33.0	run-1 
+190	Q0	clueweb09-en0008-53-08014	82	33.0	run-1 
+190	Q0	clueweb09-enwp00-22-13045	83	33.0	run-1 
+190	Q0	clueweb09-enwp00-26-09797	84	33.0	run-1 
+190	Q0	clueweb09-enwp01-83-01330	85	33.0	run-1 
+190	Q0	clueweb09-enwp02-24-22982	86	33.0	run-1 
+190	Q0	clueweb09-en0002-31-23641	87	32.0	run-1 
+190	Q0	clueweb09-en0002-92-06551	88	32.0	run-1 
+190	Q0	clueweb09-en0004-22-01515	89	32.0	run-1 
+190	Q0	clueweb09-en0009-82-20667	90	32.0	run-1 
+190	Q0	clueweb09-en0010-30-23059	91	32.0	run-1 
+190	Q0	clueweb09-en0010-90-24848	92	32.0	run-1 
+190	Q0	clueweb09-en0011-16-11746	93	32.0	run-1 
+190	Q0	clueweb09-en0011-41-00641	94	32.0	run-1 
+190	Q0	clueweb09-enwp00-00-09498	95	32.0	run-1 
+190	Q0	clueweb09-enwp00-04-09625	96	32.0	run-1 
+190	Q0	clueweb09-enwp00-09-18461	97	32.0	run-1 
+190	Q0	clueweb09-enwp00-13-12487	98	32.0	run-1 
+190	Q0	clueweb09-enwp00-26-05310	99	32.0	run-1 
+190	Q0	clueweb09-enwp00-34-01973	100	32.0	run-1 
+Memory used: 57 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	20 
+num_rel_ret all	1 
+map all	0.0006 
+gm_ap all	0.0006 
+R-prec all	0.0000 
+bpref all	0.0275 
+recip_rank all	0.0116 
+ircl_prn.0.00 all	0.0116 
+ircl_prn.0.10 all	0.0000 
+ircl_prn.0.20 all	0.0000 
+ircl_prn.0.30 all	0.0000 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.0000 
+P15 all	0.0000 
+P20 all	0.0000 
+P30 all	0.0000 
+P100 all	0.0100 
+P200 all	0.0050 
+P500 all	0.0020 
+P1000 all	0.0010 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-28 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-28.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-28.teIn 
+retrievalAlgorithm=UnrankedBoolean 
+
+-- Your program stdout: -- 
+149	Q0	clueweb09-en0000-00-00175	1	1.0	run-1 
+149	Q0	clueweb09-en0000-00-00659	2	1.0	run-1 
+149	Q0	clueweb09-en0000-00-01551	3	1.0	run-1 
+149	Q0	clueweb09-en0000-00-01558	4	1.0	run-1 
+149	Q0	clueweb09-en0000-00-01716	5	1.0	run-1 
+149	Q0	clueweb09-en0000-00-01986	6	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03030	7	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03080	8	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03412	9	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03430	10	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03431	11	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03433	12	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03434	13	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03435	14	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03436	15	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03437	16	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03438	17	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03458	18	1.0	run-1 
+149	Q0	clueweb09-en0000-00-03583	19	1.0	run-1 
+149	Q0	clueweb09-en0000-00-04550	20	1.0	run-1 
+149	Q0	clueweb09-en0000-00-04689	21	1.0	run-1 
+149	Q0	clueweb09-en0000-00-04920	22	1.0	run-1 
+149	Q0	clueweb09-en0000-00-05092	23	1.0	run-1 
+149	Q0	clueweb09-en0000-00-05489	24	1.0	run-1 
+149	Q0	clueweb09-en0000-00-05550	25	1.0	run-1 
+149	Q0	clueweb09-en0000-00-05556	26	1.0	run-1 
+149	Q0	clueweb09-en0000-00-05738	27	1.0	run-1 
+149	Q0	clueweb09-en0000-00-05971	28	1.0	run-1 
+149	Q0	clueweb09-en0000-00-06261	29	1.0	run-1 
+149	Q0	clueweb09-en0000-00-06890	30	1.0	run-1 
+149	Q0	clueweb09-en0000-00-06964	31	1.0	run-1 
+149	Q0	clueweb09-en0000-00-07615	32	1.0	run-1 
+149	Q0	clueweb09-en0000-00-07658	33	1.0	run-1 
+149	Q0	clueweb09-en0000-00-07805	34	1.0	run-1 
+149	Q0	clueweb09-en0000-00-07893	35	1.0	run-1 
+149	Q0	clueweb09-en0000-00-08176	36	1.0	run-1 
+149	Q0	clueweb09-en0000-00-08228	37	1.0	run-1 
+149	Q0	clueweb09-en0000-00-08250	38	1.0	run-1 
+149	Q0	clueweb09-en0000-00-08267	39	1.0	run-1 
+149	Q0	clueweb09-en0000-00-08425	40	1.0	run-1 
+149	Q0	clueweb09-en0000-00-09771	41	1.0	run-1 
+149	Q0	clueweb09-en0000-00-09777	42	1.0	run-1 
+149	Q0	clueweb09-en0000-00-09839	43	1.0	run-1 
+149	Q0	clueweb09-en0000-00-09841	44	1.0	run-1 
+149	Q0	clueweb09-en0000-00-09883	45	1.0	run-1 
+149	Q0	clueweb09-en0000-00-10131	46	1.0	run-1 
+149	Q0	clueweb09-en0000-00-10348	47	1.0	run-1 
+149	Q0	clueweb09-en0000-00-10987	48	1.0	run-1 
+149	Q0	clueweb09-en0000-00-11868	49	1.0	run-1 
+149	Q0	clueweb09-en0000-00-12911	50	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13114	51	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13312	52	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13313	53	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13315	54	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13316	55	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13323	56	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13486	57	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13674	58	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13825	59	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13846	60	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13860	61	1.0	run-1 
+149	Q0	clueweb09-en0000-00-13880	62	1.0	run-1 
+149	Q0	clueweb09-en0000-00-14227	63	1.0	run-1 
+149	Q0	clueweb09-en0000-00-14766	64	1.0	run-1 
+149	Q0	clueweb09-en0000-00-14898	65	1.0	run-1 
+149	Q0	clueweb09-en0000-00-15060	66	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16240	67	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16329	68	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16330	69	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16470	70	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16619	71	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16779	72	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16780	73	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16781	74	1.0	run-1 
+149	Q0	clueweb09-en0000-00-16890	75	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17541	76	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17600	77	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17601	78	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17602	79	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17603	80	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17604	81	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17605	82	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17606	83	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17607	84	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17608	85	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17610	86	1.0	run-1 
+149	Q0	clueweb09-en0000-00-17905	87	1.0	run-1 
+149	Q0	clueweb09-en0000-00-18722	88	1.0	run-1 
+149	Q0	clueweb09-en0000-00-18918	89	1.0	run-1 
+149	Q0	clueweb09-en0000-00-18919	90	1.0	run-1 
+149	Q0	clueweb09-en0000-00-19373	91	1.0	run-1 
+149	Q0	clueweb09-en0000-00-19477	92	1.0	run-1 
+149	Q0	clueweb09-en0000-00-20370	93	1.0	run-1 
+149	Q0	clueweb09-en0000-00-20592	94	1.0	run-1 
+149	Q0	clueweb09-en0000-00-20726	95	1.0	run-1 
+149	Q0	clueweb09-en0000-00-20769	96	1.0	run-1 
+149	Q0	clueweb09-en0000-00-20830	97	1.0	run-1 
+149	Q0	clueweb09-en0000-00-21007	98	1.0	run-1 
+149	Q0	clueweb09-en0000-00-21036	99	1.0	run-1 
+149	Q0	clueweb09-en0000-00-21319	100	1.0	run-1 
+Memory used: 70 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	62 
+num_rel_ret all	0 
+map all	0.0000 
+gm_ap all	0.0000 
+R-prec all	0.0000 
+bpref all	0.0000 
+recip_rank all	0.0000 
+ircl_prn.0.00 all	0.0000 
+ircl_prn.0.10 all	0.0000 
+ircl_prn.0.20 all	0.0000 
+ircl_prn.0.30 all	0.0000 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.0000 
+P15 all	0.0000 
+P20 all	0.0000 
+P30 all	0.0000 
+P100 all	0.0000 
+P200 all	0.0000 
+P500 all	0.0000 
+P1000 all	0.0000 
+
+-- grade: -- 
+100% 
+
+---- Test HW1-Train-29 ---- 
+
+
+-- Parameter file: -- 
+indexPath=/bos/www/htdocs/classes/11-642/HW/HTS/inputs/index 
+queryFilePath=/bos/www/htdocs/classes/11-642/HW/HTS/tests/HW1-Train-29.qry 
+trecEvalOutputPath=/bos/www/htdocs/classes/11-642/HW/HTS/uploads-hts-interim/HW1-hailunz-Jan29-20:52:44/QryEval/outputs/HW1-Train-29.teIn 
+retrievalAlgorithm=RankedBoolean 
+
+-- Your program stdout: -- 
+149	Q0	clueweb09-en0004-10-01859	1	2005.0	run-1 
+149	Q0	clueweb09-en0000-54-05204	2	1864.0	run-1 
+149	Q0	clueweb09-en0004-04-24081	3	1862.0	run-1 
+149	Q0	clueweb09-en0000-26-17674	4	1764.0	run-1 
+149	Q0	clueweb09-en0004-37-01072	5	1761.0	run-1 
+149	Q0	clueweb09-en0005-86-32428	6	961.0	run-1 
+149	Q0	clueweb09-en0004-04-21123	7	471.0	run-1 
+149	Q0	clueweb09-en0004-79-11316	8	465.0	run-1 
+149	Q0	clueweb09-en0004-65-06227	9	450.0	run-1 
+149	Q0	clueweb09-en0001-89-23543	10	442.0	run-1 
+149	Q0	clueweb09-en0003-84-26915	11	442.0	run-1 
+149	Q0	clueweb09-en0000-28-05460	12	437.0	run-1 
+149	Q0	clueweb09-en0004-19-08653	13	435.0	run-1 
+149	Q0	clueweb09-en0007-54-47003	14	406.0	run-1 
+149	Q0	clueweb09-en0001-21-01980	15	381.0	run-1 
+149	Q0	clueweb09-en0004-41-04834	16	377.0	run-1 
+149	Q0	clueweb09-en0007-63-31744	17	377.0	run-1 
+149	Q0	clueweb09-en0003-24-31417	18	374.0	run-1 
+149	Q0	clueweb09-enwp01-95-17709	19	368.0	run-1 
+149	Q0	clueweb09-en0001-36-06841	20	366.0	run-1 
+149	Q0	clueweb09-en0004-37-01750	21	366.0	run-1 
+149	Q0	clueweb09-enwp00-21-12377	22	366.0	run-1 
+149	Q0	clueweb09-enwp01-46-09137	23	356.0	run-1 
+149	Q0	clueweb09-en0000-43-14679	24	330.0	run-1 
+149	Q0	clueweb09-en0001-59-11960	25	325.0	run-1 
+149	Q0	clueweb09-en0005-84-28959	26	317.0	run-1 
+149	Q0	clueweb09-en0008-05-34745	27	317.0	run-1 
+149	Q0	clueweb09-en0004-31-10704	28	285.0	run-1 
+149	Q0	clueweb09-enwp01-34-07387	29	267.0	run-1 
+149	Q0	clueweb09-enwp01-48-07593	30	267.0	run-1 
+149	Q0	clueweb09-enwp01-52-22310	31	267.0	run-1 
+149	Q0	clueweb09-enwp01-60-08045	32	267.0	run-1 
+149	Q0	clueweb09-enwp01-52-21830	33	266.0	run-1 
+149	Q0	clueweb09-enwp01-55-20994	34	266.0	run-1 
+149	Q0	clueweb09-en0004-41-04736	35	255.0	run-1 
+149	Q0	clueweb09-en0000-18-21412	36	249.0	run-1 
+149	Q0	clueweb09-enwp01-70-19331	37	249.0	run-1 
+149	Q0	clueweb09-enwp01-90-18659	38	249.0	run-1 
+149	Q0	clueweb09-enwp03-26-23161	39	249.0	run-1 
+149	Q0	clueweb09-enwp03-40-00516	40	249.0	run-1 
+149	Q0	clueweb09-enwp03-44-00114	41	249.0	run-1 
+149	Q0	clueweb09-enwp03-56-00042	42	249.0	run-1 
+149	Q0	clueweb09-enwp03-57-00231	43	249.0	run-1 
+149	Q0	clueweb09-enwp01-18-10595	44	248.0	run-1 
+149	Q0	clueweb09-enwp02-01-19234	45	248.0	run-1 
+149	Q0	clueweb09-enwp03-45-00686	46	248.0	run-1 
+149	Q0	clueweb09-en0001-00-28688	47	237.0	run-1 
+149	Q0	clueweb09-en0004-45-04654	48	227.0	run-1 
+149	Q0	clueweb09-en0003-01-26777	49	220.0	run-1 
+149	Q0	clueweb09-en0011-35-20471	50	220.0	run-1 
+149	Q0	clueweb09-en0009-33-23099	51	218.0	run-1 
+149	Q0	clueweb09-en0007-46-13372	52	213.0	run-1 
+149	Q0	clueweb09-en0002-28-35222	53	210.0	run-1 
+149	Q0	clueweb09-en0007-46-13464	54	207.0	run-1 
+149	Q0	clueweb09-en0007-46-13552	55	207.0	run-1 
+149	Q0	clueweb09-enwp01-17-20164	56	206.0	run-1 
+149	Q0	clueweb09-enwp01-83-17859	57	201.0	run-1 
+149	Q0	clueweb09-en0002-15-14031	58	195.0	run-1 
+149	Q0	clueweb09-enwp03-44-00438	59	188.0	run-1 
+149	Q0	clueweb09-enwp03-55-01222	60	188.0	run-1 
+149	Q0	clueweb09-enwp03-55-01224	61	188.0	run-1 
+149	Q0	clueweb09-enwp03-57-00556	62	188.0	run-1 
+149	Q0	clueweb09-enwp02-05-01311	63	187.0	run-1 
+149	Q0	clueweb09-enwp02-30-19631	64	187.0	run-1 
+149	Q0	clueweb09-enwp03-39-23258	65	187.0	run-1 
+149	Q0	clueweb09-enwp03-44-00436	66	187.0	run-1 
+149	Q0	clueweb09-enwp03-44-00437	67	187.0	run-1 
+149	Q0	clueweb09-enwp03-44-00439	68	187.0	run-1 
+149	Q0	clueweb09-enwp03-45-01019	69	187.0	run-1 
+149	Q0	clueweb09-enwp03-51-00683	70	187.0	run-1 
+149	Q0	clueweb09-enwp03-54-00189	71	187.0	run-1 
+149	Q0	clueweb09-enwp03-55-01223	72	187.0	run-1 
+149	Q0	clueweb09-en0009-26-16917	73	186.0	run-1 
+149	Q0	clueweb09-en0003-01-26774	74	183.0	run-1 
+149	Q0	clueweb09-en0003-01-26781	75	183.0	run-1 
+149	Q0	clueweb09-en0005-07-04399	76	180.0	run-1 
+149	Q0	clueweb09-en0008-32-24252	77	179.0	run-1 
+149	Q0	clueweb09-enwp01-37-03254	78	179.0	run-1 
+149	Q0	clueweb09-enwp01-76-18109	79	178.0	run-1 
+149	Q0	clueweb09-en0003-01-26776	80	173.0	run-1 
+149	Q0	clueweb09-enwp01-28-01427	81	170.0	run-1 
+149	Q0	clueweb09-enwp01-46-09074	82	170.0	run-1 
+149	Q0	clueweb09-enwp01-52-08313	83	170.0	run-1 
+149	Q0	clueweb09-enwp01-64-07929	84	170.0	run-1 
+149	Q0	clueweb09-enwp01-65-03997	85	170.0	run-1 
+149	Q0	clueweb09-enwp01-87-10123	86	170.0	run-1 
+149	Q0	clueweb09-enwp03-28-09374	87	170.0	run-1 
+149	Q0	clueweb09-enwp03-38-09106	88	170.0	run-1 
+149	Q0	clueweb09-enwp00-06-16478	89	169.0	run-1 
+149	Q0	clueweb09-enwp00-12-16631	90	169.0	run-1 
+149	Q0	clueweb09-enwp01-90-13578	91	169.0	run-1 
+149	Q0	clueweb09-enwp03-21-22240	92	169.0	run-1 
+149	Q0	clueweb09-enwp03-36-19337	93	169.0	run-1 
+149	Q0	clueweb09-enwp00-11-18399	94	168.0	run-1 
+149	Q0	clueweb09-enwp01-15-22013	95	167.0	run-1 
+149	Q0	clueweb09-en0004-61-14166	96	161.0	run-1 
+149	Q0	clueweb09-enwp01-10-11006	97	157.0	run-1 
+149	Q0	clueweb09-enwp01-06-11867	98	156.0	run-1 
+149	Q0	clueweb09-enwp01-14-10781	99	156.0	run-1 
+149	Q0	clueweb09-enwp01-74-00948	100	155.0	run-1 
+Memory used: 75 MB 
+
+-- Your program stderr: -- 
+java version "1.6.0_29" 
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11) 
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02, mixed mode) 
+
+-- trec_eval output: -- 
+num_q all	1 
+num_ret all	100 
+num_rel all	62 
+num_rel_ret all	9 
+map all	0.0175 
+gm_ap all	0.0175 
+R-prec all	0.1452 
+bpref all	0.1428 
+recip_rank all	0.0278 
+ircl_prn.0.00 all	0.2000 
+ircl_prn.0.10 all	0.2000 
+ircl_prn.0.20 all	0.0000 
+ircl_prn.0.30 all	0.0000 
+ircl_prn.0.40 all	0.0000 
+ircl_prn.0.50 all	0.0000 
+ircl_prn.0.60 all	0.0000 
+ircl_prn.0.70 all	0.0000 
+ircl_prn.0.80 all	0.0000 
+ircl_prn.0.90 all	0.0000 
+ircl_prn.1.00 all	0.0000 
+P5 all	0.0000 
+P10 all	0.0000 
+P15 all	0.0000 
+P20 all	0.0000 
+P30 all	0.0000 
+P100 all	0.0900 
+P200 all	0.0450 
+P500 all	0.0180 
+P1000 all	0.0090 
+
+-- grade: -- 
+100% 
+---- End of your system's output ----
+
+
+---- Done ----

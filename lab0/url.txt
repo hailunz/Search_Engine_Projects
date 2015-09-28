@@ -1,0 +1,8 @@
+
+		URL url = new URL("https://s3.amazonaws.com/ds.lab0/test1.yaml");
+		
+		Constructor constructor = new Constructor(configFile.class);
+		Yaml yaml = new Yaml(constructor);
+		
+		InputStream input = url.openStream();
+		this.confFile = (configFile) yaml.load(input);

@@ -1,0 +1,209 @@
+10:#syn(cheap #near/1(low priced)) internet.inlink
+map all	0.0227
+P10 all	0.3000
+P15 all	0.2000
+P20 all	0.2000
+P30 all	0.1667
+
+10:cheap internet.inlink
+cheap economical inexpensive affordable
+10:#NEAR/3(#SYN(cheap inexpensive affordable) internet)
+map all	0.1389
+P10 all	0.5000
+P15 all	0.4000
+P20 all	0.4500
+P30 all	0.3333
+
+10:#NEAR/3(#SYN(cheap inexpensive affordable) internet) internet.inlink
+map all	0.1251
+P10 all	0.6000
+P15 all	0.4667
+P20 all	0.5000
+P30 all	0.4667
+
+12:djs
+map all	0.2805
+P10 all	0.9000
+P15 all	0.9333
+P20 all	0.7500
+P30 all	0.7333
+
+12:djs djs.keywords djs.url
+map all	0.2832
+P10 all	0.8000
+P15 all	0.8000
+P20 all	0.8500
+P30 all	0.7667
+
+12:#SYN(djs dj #NEAR/1(disk jockey))
+map all	0.2111
+P10 all	0.3000
+P15 all	0.4000
+P20 all	0.5500
+P30 all	0.6000
+
+12:#SYN(djs dj #NEAR/1(disk jockey)) djs.keywords djs.url
+map all	0.3269
+P10 all	0.7000
+P15 all	0.8000
+P20 all	0.8000
+P30 all	0.7667
+
+26:lower heart rate
+map all	0.1797
+P10 all	0.2000
+P15 all	0.2000
+P20 all	0.3000
+P30 all	0.4000
+
+26:#near/4(lower #near/1(heart rate))
+map all	0.3788
+P10 all	0.7000
+P15 all	0.7333
+P20 all	0.7000
+P30 all	0.6667
+
+26: #near/4(lower #near/1(heart rate)) #syn(lower decrease) not good
+
+29:ps 2 games
+map all	0.0265
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.0500
+P30 all	0.0667
+
+29:#NEAR/2(#SYN(ps #NEAR/1(play station)) 2) games
+map all	0.0640
+P10 all	0.2000
+P15 all	0.1333
+P20 all	0.1000
+P30 all	0.1000
+
+29:#NEAR/2(#SYN(ps.title #NEAR/1(play.title station.title)) 2.title) games.title #NEAR/2(#SYN(ps #NEAR/1(play station)) 2) games
+map all	0.1052
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.0500
+P30 all	0.0667
+
+29:#NEAR/1(#SYN(ps #NEAR/1(play station)) 2) games
+map all	0.0651
+P10 all	0.2000
+P15 all	0.1333
+P20 all	0.1000
+P30 all	0.1000
+
+29:#NEAR/2(#SYN(ps #NEAR/1(play station)) 2) games #near/1(ps.title 2.title)
+map all	0.1062
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.0500
+P30 all	0.0667
+
+33:elliptical trainer
+map all	0.4160
+P10 all	0.5000
+P15 all	0.6667
+P20 all	0.7000
+P30 all	0.7333
+
+33:elliptical trainer #near/15(elliptical.title trainer.title)
+map all	0.4648
+P10 all	0.7000
+P15 all	0.8000
+P20 all	0.8500
+P30 all	0.8667
+
+33:elliptical #syn(trainer machine) #near/15(elliptical.title trainer.title)
+map all	0.4684
+P10 all	0.7000
+P15 all	0.8000
+P20 all	0.8500
+P30 all	0.8667
+
+52:avp
+map all	0.0981
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.1500
+P30 all	0.2333
+
+52:#SYN(avp #NEAR/10(Association Volleyball Professional))
+map all	0.1002
+P10 all	0.1000
+P15 all	0.2000
+P20 all	0.2000
+P30 all	0.2333
+
+52:#SYN(avp #NEAR/8(Association Volleyball Professional)) avp.url
+map all	0.2538
+P10 all	0.6000
+P15 all	0.5333
+P20 all	0.4000
+P30 all	0.3667
+
+71:living in india
+map all	0.0626
+P10 all	0.0000
+P15 all	0.1333
+P20 all	0.1500
+P30 all	0.1667
+
+71: #near/1(living in) india
+map all	0.0626
+P10 all	0.0000
+P15 all	0.1333
+P20 all	0.1500
+P30 all	0.1667
+
+71: #near/1(#syn(living live lives) in) india
+
+
+102:fickle creek farm
+map all	0.0015
+P10 all	0.0000
+P15 all	0.0000
+P20 all	0.0000
+P30 all	0.0000
+
+102:#NEAR/1(fickle creek farm)
+map all	0.0076
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.0500
+P30 all	0.0333
+
+102:#NEAR/10(fickle creek) #syn(farm farmhouse field)
+map all	0.0114
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.0500
+P30 all	0.0333
+
+149: uplift at #NEAR/10(yellowstone #NEAR/2(national park))
+map all	0.1609
+P10 all	0.0000
+P15 all	0.2667
+P20 all	0.4000
+P30 all	0.5000
+
+190:#NEAR/2(brooks brothers) #SYN(clearance sale)
+map all	0.0393
+P10 all	0.1000
+P15 all	0.0667
+P20 all	0.1000
+P30 all	0.1333
+
+190:#NEAR/1(brooks brothers) #SYN(clearance sale discount)
+map all	0.0689
+P10 all	0.1000
+P15 all	0.1333
+P20 all	0.2500
+P30 all	0.2000
+
+190:#NEAR/1(brooks brothers) #SYN(clearance sale discount) brooks.title brothers.title clearance.title
+map all	0.0907
+P10 all	0.3000
+P15 all	0.2667
+P20 all	0.2500
+P30 all	0.2000

@@ -1,0 +1,9 @@
+
+Indri:mu=500
+Indri:lambda=0.1
+fb=true
+fbDocs=50
+fbTerms=40
+fbMu=0
+fbOrigWeight=0.4
+fbExpansionQueryFile=HW4-train-1.qryOut

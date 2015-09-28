@@ -1,0 +1,13 @@
+N QryEval.READER.numDocs()
+
+N : QryEval.READER.getDocCount ("url")
+avg_doclen  "avglen="+
+		      QryEval.READER.getSumTotalTermFreq("url") /
+		      (float) QryEval.READER.getDocCount ("url"));
+
+
+DocLengthStore dls = new DocLengthStore(READER);
+doclined: dls.getDocLength("body", docid))
+
+tf: invlist
+df: invlist

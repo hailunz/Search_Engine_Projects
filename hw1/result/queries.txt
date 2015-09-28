@@ -1,0 +1,75 @@
+Even number -> Unranked Boolean
+Odd number  -> Ranked Boolean
+TestID		Description
+0 1		10 AND
+2 3		10 OR
+4 5		1 AND
+6 7		1 AND
+8 9		1 OR + title
+10 11		1 OR + title + inlink
+12 13		1 OR + AND + body + keywords
+14 15		1 AND + title + body
+16 17		1 NEAR
+18 19		1 NEAR
+20 21		1 Nested: OR + AND + NEAR
+22 23		1 Nested: OR + AND + NEAR
+24 25		1 Nested: OR + AND + NEAR
+26 27		1 OR
+28 29		1 OR
+30 31		10 NEAR
+
+10:#AND(cheap internet)
+12:#AND(djs)
+26:#AND(lower heart rate)
+29:#AND(ps 2 games)
+33:#AND(elliptical trainer)
+52:#AND(avp)
+71:#AND(living in india)
+102:#AND(fickle creek farm)
+149:#AND(uplift at yellowstone national park)
+190:#AND(brooks brothers clearance)
+
+10:cheap internet
+12:djs
+26:lower heart rate
+29:ps 2 games
+33:elliptical trainer
+52:avp
+71:living in india
+102:fickle creek farm
+149:uplift at yellowstone national park
+190:brooks brothers clearance
+
+8-52:avp.inlink avp.title avp.keywords avp.body
+
+10-71:living in india.title
+
+12-149:uplift at #AND(yellowstone.title national.body park.body)
+
+14- 190:#AND(brooks.title brothers.title) clearance
+
+16-190:#NEAR/2(brooks brothers) clearance
+
+18-19！149:#OR(uplift at #NEAR/5(yellowstone national park))
+
+20-190:#OR(#AND(#NEAR/2(brooks brothers) clearance)   #AND(brooks.url brothers.url))
+
+22-149:#OR(#AND(uplift at #NEAR/5(yellowstone national park))  #AND(uplift at #NEAR/10(yellowstone #NEAR/2(national park))))
+
+24-29:#OR(#AND(#NEAR/2(ps.title 2.title) games)   #AND(#NEAR/2(ps.body 2.body) games.body))
+
+26-190:brooks brothers clearance
+
+28-149:uplift at yellowstone national park
+
+30-
+10:#NEAR/3(cheap internet)
+12:djs
+26:#AND(lower #NEAR/5(heart rate))
+29:#NEAR/2(ps 2) games
+33:#NEAR/5(elliptical trainer)
+52:avp
+71:#AND(living in india)
+102:#NEAR/10(fickle creek farm)
+149:#OR(uplift at #NEAR/5(yellowstone national park))
+190:#NEAR/2(brooks brothers) clearance

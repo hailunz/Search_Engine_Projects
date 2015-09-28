@@ -1,0 +1,83 @@
+#root {
+	-fx-background-color: #333333;
+	-fx-padding: 1px;
+}
+
+#mainToolBar {
+    -fx-background-color: #333333;
+}
+
+#createButton {
+	-fx-background-color: null;
+    -fx-text-fill: yellow;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+	-fx-background-position: left top;
+	-fx-background-repeat: no-repeat;
+}
+
+#joinButton {
+	-fx-background-color: null;
+    -fx-text-fill: yellow;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+	-fx-background-position: left top;
+	-fx-background-repeat: no-repeat;
+}
+
+#controlBar {
+    -fx-background-color: #333333;
+}
+
+#list .tree-cell {
+	-fx-indent: 10;
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-family: SansSerif;
+}
+
+#list .tree-cell:odd {
+	-fx-background-color: transparent;
+}
+
+#list .tree-cell:filled:selected:focused,#page-tree .tree-cell:filled:selected {
+	-fx-background: #666666;
+	-fx-background-color: -fx-selection-bar;
+	-fx-text-fill: -fx-selection-bar-text;
+}
+
+#list:focused .tree-cell:filled:selected {
+	-fx-background: -fx-accent;
+}
+
+#list {
+	-fx-background-color: #333333;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+}
+
+
+#meta {
+    -fx-background-color: #333333;
+}
+
+#display {
+    -fx-border-color: white;
+}
+
+#play {
+    -fx-text-fill: yellow;
+    -fx-vpos: center;
+}
+
+#ip {
+    -fx-text-fill: yellow;
+    -fx-text-alignment: right;
+    -fx-padding: 1px;
+}
+
+#test {
+    -fx-text-fill: yellow;
+}
+

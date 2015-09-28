@@ -1,0 +1,470 @@
+10:cheap internet
+12:djs
+26:lower heart rate
+29:ps 2 games
+33:elliptical trainer
+52:avp
+71:living in india
+102:fickle creek farm
+149:uplift at yellowstone national park
+190:brooks brothers clearance
+
+10: #and( #wsum (0.5 cheap.body 0.5 cheap.inlink) #wsum ( 0.5 internet.body 0.5 internet.inlink))
+
+P10 all	0.4000
+P15 all	0.3333
+P20 all	0.2500
+P30 all	0.3000
+map all	0.0584
+
+10: #and( #wsum (0.3 cheap.body 0.7 cheap.inlink) #wsum ( 0.3 internet.body 0.7 internet.inlink))
+P10 all	0.5000
+P15 all	0.4667
+P20 all	0.4500
+P30 all	0.4000
+map all	0.0764
+
+10: #and (#wsum (0.1 cheap.url 0.1 cheap.keywords 0.1 cheap.title 0.1 cheap.body 0.1 cheap.inlink) #wsum (0.1 internet.url 0.1 internet.keywords 0.1 internet.title 0.1 internet.body 0.1 internet.inlink))
+P10 all	0.1000
+P15 all	0.2000
+P20 all	0.2500
+P30 all	0.1667
+map all	0.0322
+
+10: #and (#wsum (0.1 cheap.url 0.1 cheap.keywords 0.1 cheap.title 0.1 cheap.body 0.1 cheap.inlink) #wsum (0.1 internet.url 0.1 internet.keywords 0.1 internet.title 0.1 internet.body 0.1 internet.inlink))
+12:#wsum( 0.1 djs.url 0.1 djs.keywords 0.1 djs.title 0.1 djs.body 0.1 djs.inlink)
+26:#and(
+#wsum (0.1 lower.url 0.1 lower.keywords 0.1 lower.title 0.1 lower.body 0.1 lower.inlink)
+#wsum (0.1 heart.url 0.1 heart.keywords 0.1 heart.title 0.1 heart.body 0.1 heart.inlink)
+#wsum (0.1 rate.url 0.1 rate.keywords 0.1 rate.title 0.1 rate.body 0.1 rate.inlink) )
+29:#and(
+#wsum (0.1 ps.url 0.1 ps.keywords 0.1 ps.title 0.1 ps.body 0.1 ps.inlink)
+#wsum (0.1 2.url 0.1 2.keywords 0.1 2.title 0.1 2.body 0.1 2.inlink)
+#wsum (0.1 games.url 0.1 games.keywords 0.1 games.title 0.1 games.body 0.1 games.inlink))
+
+33:#and(
+#wsum (0.1 elliptical.url 0.1 elliptical.keywords 0.1 elliptical.title 0.1 elliptical.body 0.1 elliptical.inlink)
+#wsum (0.1 trainer.url 0.1 trainer.keywords 0.1 trainer.title 0.1 trainer.body 0.1 trainer.inlink))
+52:#wsum (0.1 avp.url 0.1 avp.keywords 0.1 avp.title 0.1 avp.body 0.1 avp.inlink)
+71:#and(
+#wsum (0.1 living.url 0.1 living.keywords 0.1 living.title 0.1 living.body 0.1 living.inlink)
+#wsum (0.1 in.url 0.1 in.keywords 0.1 in.title 0.1 in.body 0.1 in.inlink)
+#wsum (0.1 india.url 0.1 india.keywords 0.1 india.title 0.1 india.body 0.1 india.inlink))
+102:#and(
+#wsum (0.1 fickle.url 0.1 fickle.keywords 0.1 fickle.title 0.1 fickle.body 0.1 fickle.inlink)
+#wsum (0.1 creek.url 0.1 creek.keywords 0.1 creek.title 0.1 creek.body 0.1 creek.inlink)
+#wsum (0.1 farm.url 0.1 farm.keywords 0.1 farm.title 0.1 farm.body 0.1 farm.inlink))
+149:#and(
+#wsum (0.1 uplift.url 0.1 uplift.keywords 0.1 uplift.title 0.1 uplift.body 0.1 uplift.inlink)
+#wsum (0.1 at.url 0.1 at.keywords 0.1 at.title 0.1 at.body 0.1 at.inlink)
+#wsum (0.1 yellowstone.url 0.1 yellowstone.keywords 0.1 yellowstone.title 0.1 yellowstone.body 0.1 yellowstone.inlink)
+#wsum (0.1 national.url 0.1 national.keywords 0.1 national.title 0.1 national.body 0.1 national.inlink)
+#wsum (0.1 park.url 0.1 park.keywords 0.1 park.title 0.1 park.body 0.1 park.inlink))
+190:#and(
+#wsum (0.1 brooks.url 0.1 brooks.keywords 0.1 brooks.title 0.1 brooks.body 0.1 brooks.inlink)
+#wsum (0.1 brothers.url 0.1 brothers.keywords 0.1 brothers.title 0.1 brothers.body 0.1 brothers.inlink)
+#wsum (0.1 clearance.url 0.1 clearance.keywords 0.1 clearance.title 0.1 clearance.body 0.1 clearance.inlink))
+
+
+
+
+12567
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	234
+map all	0.0882
+gm_ap all	0.0351
+R-prec all	0.1925
+bpref all	0.1595
+recip_rank all	0.2592
+ircl_prn.0.00 all	0.3455
+ircl_prn.0.10 all	0.2746
+ircl_prn.0.20 all	0.2519
+ircl_prn.0.30 all	0.1950
+ircl_prn.0.40 all	0.1267
+ircl_prn.0.50 all	0.0737
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1800
+P10 all	0.1500
+P15 all	0.1667
+P20 all	0.1800
+P30 all	0.1833
+P100 all	0.2340
+P200 all	0.1170
+P500 all	0.0468
+P1000 all	0.0234
+
+12345
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	235
+map all	0.0897
+gm_ap all	0.0351
+R-prec all	0.1930
+bpref all	0.1588
+recip_rank all	0.3248
+ircl_prn.0.00 all	0.3956
+ircl_prn.0.10 all	0.2743
+ircl_prn.0.20 all	0.2514
+ircl_prn.0.30 all	0.1963
+ircl_prn.0.40 all	0.1275
+ircl_prn.0.50 all	0.0737
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1600
+P15 all	0.1600
+P20 all	0.1800
+P30 all	0.1833
+P100 all	0.2350
+P200 all	0.1175
+P500 all	0.0470
+P1000 all	0.0235
+
+11224
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	227
+map all	0.0857
+gm_ap all	0.0222
+R-prec all	0.1951
+bpref all	0.1533
+recip_rank all	0.3729
+ircl_prn.0.00 all	0.4383
+ircl_prn.0.10 all	0.2553
+ircl_prn.0.20 all	0.2292
+ircl_prn.0.30 all	0.1870
+ircl_prn.0.40 all	0.1073
+ircl_prn.0.50 all	0.0727
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1500
+P15 all	0.1933
+P20 all	0.1650
+P30 all	0.1733
+P100 all	0.2270
+P200 all	0.1135
+P500 all	0.0454
+P1000 all	0.0227
+
+
+12634
+
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	230
+map all	0.0875
+gm_ap all	0.0220
+R-prec all	0.1926
+bpref all	0.1576
+recip_rank all	0.3712
+ircl_prn.0.00 all	0.4390
+ircl_prn.0.10 all	0.2608
+ircl_prn.0.20 all	0.2405
+ircl_prn.0.30 all	0.1921
+ircl_prn.0.40 all	0.1284
+ircl_prn.0.50 all	0.0735
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1300
+P15 all	0.1600
+P20 all	0.1550
+P30 all	0.1800
+P100 all	0.2300
+P200 all	0.1150
+P500 all	0.0460
+P1000 all	0.0230
+
+12534
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	231
+map all	0.0882
+gm_ap all	0.0223
+R-prec all	0.1909
+bpref all	0.1587
+recip_rank all	0.3714
+ircl_prn.0.00 all	0.4394
+ircl_prn.0.10 all	0.2620
+ircl_prn.0.20 all	0.2410
+ircl_prn.0.30 all	0.1918
+ircl_prn.0.40 all	0.1278
+ircl_prn.0.50 all	0.0735
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1300
+P15 all	0.1533
+P20 all	0.1550
+P30 all	0.1800
+P100 all	0.2310
+P200 all	0.1155
+P500 all	0.0462
+P1000 all	0.0231
+
+12334
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	234
+map all	0.0892
+gm_ap all	0.0336
+R-prec all	0.1909
+bpref all	0.1594
+recip_rank all	0.3738
+ircl_prn.0.00 all	0.4414
+ircl_prn.0.10 all	0.2660
+ircl_prn.0.20 all	0.2440
+ircl_prn.0.30 all	0.1904
+ircl_prn.0.40 all	0.1274
+ircl_prn.0.50 all	0.0735
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1400
+P15 all	0.1667
+P20 all	0.1650
+P30 all	0.1833
+P100 all	0.2340
+P200 all	0.1170
+P500 all	0.0468
+P1000 all	0.0234
+
+12336
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	227
+map all	0.0854
+gm_ap all	0.0220
+R-prec all	0.1951
+bpref all	0.1531
+recip_rank all	0.3729
+ircl_prn.0.00 all	0.4376
+ircl_prn.0.10 all	0.2532
+ircl_prn.0.20 all	0.2281
+ircl_prn.0.30 all	0.1875
+ircl_prn.0.40 all	0.1074
+ircl_prn.0.50 all	0.0720
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1500
+P15 all	0.1933
+P20 all	0.1650
+P30 all	0.1733
+P100 all	0.2270
+P200 all	0.1135
+P500 all	0.0454
+P1000 all	0.0227
+
+12335
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	232
+map all	0.0880
+gm_ap all	0.0225
+R-prec all	0.1909
+bpref all	0.1567
+recip_rank all	0.3720
+ircl_prn.0.00 all	0.4406
+ircl_prn.0.10 all	0.2625
+ircl_prn.0.20 all	0.2399
+ircl_prn.0.30 all	0.1902
+ircl_prn.0.40 all	0.1267
+ircl_prn.0.50 all	0.0740
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1500
+P15 all	0.1867
+P20 all	0.1650
+P30 all	0.1867
+P100 all	0.2320
+P200 all	0.1160
+P500 all	0.0464
+P1000 all	0.0232
+
+0.05 0.05 0.1 0.85 0.4
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	245
+map all	0.0920
+gm_ap all	0.0428
+R-prec all	0.2048
+bpref all	0.1624
+recip_rank all	0.1919
+ircl_prn.0.00 all	0.3523
+ircl_prn.0.10 all	0.2924
+ircl_prn.0.20 all	0.2514
+ircl_prn.0.30 all	0.2354
+ircl_prn.0.40 all	0.1216
+ircl_prn.0.50 all	0.0730
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.1600
+P15 all	0.1867
+P20 all	0.1950
+P30 all	0.2067
+P100 all	0.2450
+P200 all	0.1225
+P500 all	0.0490
+P1000 all	0.0245
+
+0.05 0.05 0.85 0.1 0.1
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	276
+map all	0.1106
+gm_ap all	0.0557
+R-prec all	0.2451
+bpref all	0.1861
+recip_rank all	0.2330
+ircl_prn.0.00 all	0.3737
+ircl_prn.0.10 all	0.3355
+ircl_prn.0.20 all	0.3052
+ircl_prn.0.30 all	0.2376
+ircl_prn.0.40 all	0.1358
+ircl_prn.0.50 all	0.0758
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.2300
+P15 all	0.2667
+P20 all	0.2600
+P30 all	0.2500
+P100 all	0.2760
+P200 all	0.1380
+P500 all	0.0552
+P1000 all	0.0276
+
+0.1 0.2 0.5 8.5 0.4
+num_q all	10
+num_ret all	1000
+num_rel all	751
+num_rel_ret all	282
+map all	0.1206
+gm_ap all	0.0609
+R-prec all	0.2554
+bpref all	0.1944
+recip_rank all	0.2347
+ircl_prn.0.00 all	0.3977
+ircl_prn.0.10 all	0.3689
+ircl_prn.0.20 all	0.3193
+ircl_prn.0.30 all	0.2389
+ircl_prn.0.40 all	0.1427
+ircl_prn.0.50 all	0.0790
+ircl_prn.0.60 all	0.0000
+ircl_prn.0.70 all	0.0000
+ircl_prn.0.80 all	0.0000
+ircl_prn.0.90 all	0.0000
+ircl_prn.1.00 all	0.0000
+P5 all	0.1600
+P10 all	0.2500
+P15 all	0.2867
+P20 all	0.2700
+P30 all	0.2767
+P100 all	0.2820
+P200 all	0.1410
+P500 all	0.0564
+P1000 all	0.0282
+
+title 0.0613 0.1076
+inlink 0.0576 165 0.0936
+body 0.1277 284
+keywords 0.0775 179 0.1075
+url 0.1165 208 0.1096
+
+
+window 0.5
+P10 all	0.3500
+P15 all	0.3867
+P20 all	0.3650
+P30 all	0.3733
+map all	0.1831
+near 0.5
+P10 all	0.3500
+P15 all	0.4000
+P20 all	0.3750
+P30 all	0.3667
+map all	0.1877
+
+near 0.3 0.1
+P10 all	0.3500
+P15 all	0.3933
+P20 all	0.3750
+P30 all	0.3733
+map all	0.1856
+
+and 0.3
+P10 all	0.3100
+P15 all	0.3467
+P20 all	0.3450
+P30 all	0.3633
+map all	0.1728
+
+0.3 0.2 0.1
+P10 all	0.3400
+P15 all	0.3800
+P20 all	0.3550
+P30 all	0.3567
+map all	0.1842
+
+0.1 0.2 0.3
+P10 all	0.3600
+P15 all	0.3933
+P20 all	0.3750
+P30 all	0.3567
+map all	0.1845
+
+
+0.1 0.4 0.3
+P10 all	0.3500
+P15 all	0.3933
+P20 all	0.3800
+P30 all	0.3700
+map all	0.1882s
+
+102:#wand( 0.1 #and( fickle creek farm ) 0.1 #and( #near/1( creek farm )  #near/1( fickle creek ) ) 0.3 #and( #window/8( creek farm )  #window/8( fickle creek ) ) )

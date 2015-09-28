@@ -1,0 +1,222 @@
+map            	1	0.0002
+map            	5	0.0384
+map            	10	0.0223
+map            	11	0.4879
+map            	12	0.2997
+map            	15	0.4168
+map            	17	0.0999
+map            	26	0.2758
+map            	29	0.0327
+map            	30	0.2710
+map            	33	0.4435
+map            	37	0.0375
+map            	45	0.2988
+map            	47	0.3335
+map            	49	0.2610
+map            	52	0.2129
+map            	71	0.0186
+map            	102	0.0017
+map            	149	0.1904
+map            	190	0.0825
+map            	all	0.1913
+
+P10            	1	0.0000
+P20            	1	0.0000
+P30            	1	0.0000
+P100           	1	0.0100
+P200           	1	0.0050
+P500           	1	0.0020
+P1000          	1	0.0010
+P10            	5	0.0000
+P20            	5	0.0000
+P30            	5	0.0000
+P100           	5	0.0600
+P200           	5	0.0300
+P500           	5	0.0120
+P1000          	5	0.0060
+P10            	10	0.0000
+P20            	10	0.0000
+P30            	10	0.0000
+P100           	10	0.1900
+P200           	10	0.0950
+P500           	10	0.0380
+P1000          	10	0.0190
+P10            	11	0.7000
+P20            	11	0.5500
+P30            	11	0.6667
+P100           	11	0.4800
+P200           	11	0.2400
+P500           	11	0.0960
+P1000          	11	0.0480
+P10            	12	1.0000
+P20            	12	0.8000
+P30            	12	0.7667
+P100           	12	0.6600
+P200           	12	0.3300
+P500           	12	0.1320
+P1000          	12	0.0660
+P10            	15	0.6000
+P20            	15	0.7500
+P30            	15	0.8000
+P100           	15	0.9000
+P200           	15	0.4500
+P500           	15	0.1800
+P1000          	15	0.0900
+P10            	17	0.1000
+P20            	17	0.3000
+P30            	17	0.3000
+P100           	17	0.3500
+P200           	17	0.1750
+P500           	17	0.0700
+P1000          	17	0.0350
+P10            	26	0.7000
+P20            	26	0.7500
+P30            	26	0.6333
+P100           	26	0.4200
+P200           	26	0.2100
+P500           	26	0.0840
+P1000          	26	0.0420
+P10            	29	0.2000
+P20            	29	0.1000
+P30            	29	0.0667
+P100           	29	0.0400
+P200           	29	0.0200
+P500           	29	0.0080
+P1000          	29	0.0040
+P10            	30	0.5000
+P20            	30	0.5500
+P30            	30	0.6000
+P100           	30	0.6700
+P200           	30	0.3350
+P500           	30	0.1340
+P1000          	30	0.0670
+P10            	33	0.6000
+P20            	33	0.8000
+P30            	33	0.8000
+P100           	33	0.8100
+P200           	33	0.4050
+P500           	33	0.1620
+P1000          	33	0.0810
+P10            	37	0.0000
+P20            	37	0.0500
+P30            	37	0.0333
+P100           	37	0.0200
+P200           	37	0.0100
+P500           	37	0.0040
+P1000          	37	0.0020
+P10            	45	0.5000
+P20            	45	0.4500
+P30            	45	0.5000
+P100           	45	0.5900
+P200           	45	0.2950
+P500           	45	0.1180
+P1000          	45	0.0590
+P10            	47	0.2000
+P20            	47	0.1000
+P30            	47	0.2667
+P100           	47	0.4600
+P200           	47	0.2300
+P500           	47	0.0920
+P1000          	47	0.0460
+P10            	49	0.1000
+P20            	49	0.1500
+P30            	49	0.2667
+P100           	49	0.3400
+P200           	49	0.1700
+P500           	49	0.0680
+P1000          	49	0.0340
+P10            	52	0.4000
+P20            	52	0.4500
+P30            	52	0.5000
+P100           	52	0.2300
+P200           	52	0.1150
+P500           	52	0.0460
+P1000          	52	0.0230
+P10            	71	0.1000
+P20            	71	0.1500
+P30            	71	0.1667
+P100           	71	0.1200
+P200           	71	0.0600
+P500           	71	0.0240
+P1000          	71	0.0120
+P10            	102	0.0000
+P20            	102	0.0000
+P30            	102	0.0333
+P100           	102	0.0100
+P200           	102	0.0050
+P500           	102	0.0020
+P1000          	102	0.0010
+P10            	149	0.1000
+P20            	149	0.4000
+P30            	149	0.4000
+P100           	149	0.3300
+P200           	149	0.1650
+P500           	149	0.0660
+P1000          	149	0.0330
+P10            	190	0.3000
+P20            	190	0.1500
+P30            	190	0.2000
+P100           	190	0.0600
+P200           	190	0.0300
+P500           	190	0.0120
+P1000          	190	0.0060
+P10            	all	0.3050
+P20            	all	0.3250
+P30            	all	0.3500
+P100           	all	0.3375
+P200           	all	0.1688
+P500           	all	0.0675
+P1000          	all	0.0338
+0 -0.4921
+1 0.0227
+2 0.0053
+3 0.1344
+4 0.0276
+5 0.0302
+6 -0.0003
+7 0.2418
+8 0.0162
+9 -0.0177
+10 0.0599
+11 -0.0294
+12 0.0091
+13 -0.3163
+14 0.1219
+15 0.1514
+16 -0.0158
+17 0.001
+18 0.0736
+19 0.0393
+
+0.2418 -0.4921 0.0628
+14/6
+
+Indri:mu=500
+Indri:lambda=0.1
+fb=true
+fbDocs=50
+fbTerms=10
+fbMu=0
+fbOrigWeight=0.5
+fbExpansionQueryFile=HW4-train-1.qryOut
+fbInitialRankingFile=Indri-Bow.teIn
+1 : #wand ( 1.0812 family 0.3632 tree 0.3476 surname 0.3464 crest 0.3441 genealogy 0.2526 history 0.0348 6 0.0327 5 0.0290 3 0.0273 4 )
+5 : #wand ( 0.2308 college 0.1853 mitchell 0.0678 university 0.0449 community 0.0300 school 0.0286 0 0.0249 science 0.0197 state 0.0168 program 0.0156 biology )
+10 : #wand ( 1.0122 cheap 0.5388 internet 0.4313 host 0.2848 web 0.2322 levitra 0.2262 accutane 0.2183 propecia 0.1951 ciali 0.1870 viagra 0.1767 domain )
+11 : #wand ( 0.4598 gmat 0.1433 prep 0.1207 test 0.0894 course 0.0601 practice 0.0449 class 0.0441 score 0.0367 you 0.0312 training 0.0305 mlic )
+12 : #wand ( 6.6922 djs 0.6873 dj 0.3867 wedding 0.3273 band 0.3172 entertainer 0.2862 jockey 0.2510 disc 0.2424 entertainment 0.1848 event 0.1472 new )
+15 : #wand ( 0.7605 espn 0.2649 sports 0.0949 network 0.0796 radio 0.0732 disney 0.0651 abc 0.0578 channel 0.0532 football 0.0518 com 0.0491 television )
+17 : #wand ( 2.0521 poker 1.5033 tournament 0.2292 holdem 0.1914 online 0.1904 casino 0.1706 free 0.1567 texas 0.1281 freeroll 0.1180 world 0.1087 city )
+26 : #wand ( 0.1150 rate 0.1121 heart 0.0375 lower 0.0278 monitor 0.0208 your 0.0207 exercise 0.0195 pulse 0.0159 sensational 0.0138 beat 0.0131 hrmax )
+29 : #wand ( 0.1488 ps 0.1313 games 0.0900 2 0.0814 ps2 0.0666 cheat 0.0560 game 0.0552 playstation 0.0448 ago 0.0433 ps2dvd 0.0318 torrent )
+30 : #wand ( 0.6765 diabetes 0.1229 education 0.0833 diabetic 0.0650 program 0.0548 class 0.0525 health 0.0426 type 0.0417 center 0.0371 management 0.0341 care )
+33 : #wand ( 1.7394 elliptic 0.9226 train 0.3148 fitness 0.2488 cross 0.1443 machine 0.1431 review 0.1315 proform 0.1098 exercise 0.0999 more 0.0984 price )
+37 : #wand ( 0.3342 chef 0.1444 pamper 0.0385 cooking 0.0314 recipe 0.0206 personal 0.0195 stoneware 0.0175 magic 0.0164 kitchen 0.0147 bake 0.0136 you )
+45 : #wand ( 1.8135 solar 1.5858 panel 0.1411 energy 0.1363 watt 0.1255 power 0.1050 system 0.0894 photovoltaic 0.0727 module 0.0646 home 0.0641 pv )
+47 : #wand ( 0.9758 annuity 0.1984 index 0.1131 bullet 0.1001 equity 0.0910 fixed 0.0812 rate 0.0687 insurance 0.0648 defer 0.0579 life 0.0555 interest )
+49 : #wand ( 0.2625 tattoo 0.2205 flame 0.1876 designs 0.0538 tribal 0.0531 clipart 0.0524 vector 0.0361 art 0.0360 free 0.0351 design 0.0301 bead )
+52 : #wand ( 0.9824 avp 0.1058 newsletter 0.0831 tour 0.0716 alien 0.0651 rfc3588 0.0649 croc 0.0628 antiviru 0.0587 predator 0.0546 beach 0.0530 value )
+71 : #wand ( 0.1773 india 0.0544 living 0.0385 expat 0.0312 hick 0.0281 furniture 0.0221 island 0.0172 wooden 0.0152 indian 0.0127 casuarina 0.0118 discovery )
+102 : #wand ( 0.0064 farm 0.0056 creek 0.0029 mover 0.0024 bay 0.0023 bait 0.0022 humboldt 0.0018 twin 0.0017 fickle 0.0014 local 0.0014 island )
+149 : #wand ( 0.0998 yellowstone 0.0450 park 0.0365 national 0.0189 earthquake 0.0182 volcano 0.0122 yvo 0.0111 caldera 0.0098 volcanic 0.0096 swarm 0.0090 geology )
+190 : #wand ( 0.0554 brook 0.0360 brother 0.0292 clearance 0.0208 coupon 0.0121 sunglasses 0.0107 off 0.0096 up 0.0089 shirt 0.0089 save 0.0084 shoe )
